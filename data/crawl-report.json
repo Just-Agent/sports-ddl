@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-17T13:50:52.931Z",
+  "generatedAt": "2026-05-17T14:02:10.172Z",
   "checks": [
     {
       "id": "ittf-2026-calendar",
@@ -10,7 +10,7 @@
       "status": 403,
       "finalUrl": "https://www.ittf.com/2026-events-calendar/",
       "title": "Just a moment...",
-      "checkedAt": "2026-05-17T13:50:40.643Z"
+      "checkedAt": "2026-05-17T14:02:07.075Z"
     },
     {
       "id": "wtt-events",
@@ -21,7 +21,7 @@
       "status": 200,
       "finalUrl": "https://www.worldtabletennis.com/eventslist",
       "title": "World Table Tennis",
-      "checkedAt": "2026-05-17T13:50:41.509Z"
+      "checkedAt": "2026-05-17T14:02:08.357Z"
     },
     {
       "id": "bwf-calendar",
@@ -32,7 +32,7 @@
       "status": 403,
       "finalUrl": "https://bwfbadminton.com/calendar/",
       "title": "Attention Required! | Cloudflare",
-      "checkedAt": "2026-05-17T13:50:42.095Z"
+      "checkedAt": "2026-05-17T14:02:08.404Z"
     },
     {
       "id": "world-athletics",
@@ -43,17 +43,18 @@
       "status": 200,
       "finalUrl": "https://worldathletics.org/competitions/world-athletics-u20-championships/oregon26",
       "title": "Home | Oregon 26 | World Athletics U20 Championships",
-      "checkedAt": "2026-05-17T13:50:46.930Z"
+      "checkedAt": "2026-05-17T14:02:10.101Z"
     },
     {
       "id": "marathon-official-sites",
       "name": "Official marathon event sites",
       "url": "https://www.worldmarathonmajors.com/",
       "adapter": "marathonOfficialSitesAdapter",
-      "ok": false,
-      "status": "error",
-      "error": "This operation was aborted",
-      "checkedAt": "2026-05-17T13:50:52.931Z"
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.worldmarathonmajors.com/",
+      "title": "Abbott World Marathon Majors",
+      "checkedAt": "2026-05-17T14:02:10.172Z"
     }
   ]
 }
