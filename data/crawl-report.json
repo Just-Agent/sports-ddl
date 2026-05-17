@@ -1,15 +1,24 @@
 {
-  "generatedAt": "2026-05-17T15:19:31.594Z",
+  "generatedAt": "2026-05-17T15:26:17.097Z",
   "checks": [
     {
       "id": "apa-poolplayers-poolplayers-com-world-pool-championships",
       "name": "APA Poolplayers",
       "url": "https://poolplayers.com/world-pool-championships/",
       "adapter": "apa-pool",
-      "ok": false,
-      "status": "error",
-      "error": "This operation was aborted",
-      "checkedAt": "2026-05-17T15:19:25.826Z"
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://poolplayers.com/world-pool-championships/",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "APA World Pool Championships - American Poolplayers Association",
+      "matchedMarkers": [
+        "APA",
+        "Pool",
+        "8-Ball",
+        "9-Ball"
+      ],
+      "relatedItemCount": 1,
+      "checkedAt": "2026-05-17T15:26:09.539Z"
     },
     {
       "id": "apa-poolplayers-poolplayers-com-us-amateur-championship",
@@ -27,7 +36,7 @@
         "amateur"
       ],
       "relatedItemCount": 1,
-      "checkedAt": "2026-05-17T15:19:25.044Z"
+      "checkedAt": "2026-05-17T15:26:09.788Z"
     },
     {
       "id": "bmw-berlin-marathon-www-bmw-berlin-marathon-com",
@@ -45,7 +54,7 @@
         "road race"
       ],
       "relatedItemCount": 1,
-      "checkedAt": "2026-05-17T15:19:23.629Z"
+      "checkedAt": "2026-05-17T15:26:10.368Z"
     },
     {
       "id": "bwf-tournament-calendar-bwfbadminton-com-calendar",
@@ -61,7 +70,7 @@
         "BWF"
       ],
       "relatedItemCount": 14,
-      "checkedAt": "2026-05-17T15:19:23.057Z"
+      "checkedAt": "2026-05-17T15:26:09.410Z"
     },
     {
       "id": "chicago-marathon-www-chicagomarathon-com",
@@ -80,17 +89,26 @@
         "World Marathon Majors"
       ],
       "relatedItemCount": 1,
-      "checkedAt": "2026-05-17T15:19:25.279Z"
+      "checkedAt": "2026-05-17T15:26:09.700Z"
     },
     {
       "id": "fiba-basketball-www-fiba-basketball-en-events-fiba-u17-basketball-world-",
       "name": "FIBA Basketball",
       "url": "https://www.fiba.basketball/en/events/fiba-u17-basketball-world-cup-2026",
       "adapter": "fiba-event",
-      "ok": false,
-      "status": "error",
-      "error": "This operation was aborted",
-      "checkedAt": "2026-05-17T15:19:25.891Z"
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.fiba.basketball/en/events/fiba-u17-basketball-world-cup-2026",
+      "contentType": "text/html; charset=utf-8",
+      "title": "FIBA U17 Basketball World Cup 2026 Official Website | FIBA Basketball",
+      "matchedMarkers": [
+        "FIBA",
+        "World Cup",
+        "FIBA U17 Basketball World Cup 2026",
+        "U17"
+      ],
+      "relatedItemCount": 1,
+      "checkedAt": "2026-05-17T15:26:11.273Z"
     },
     {
       "id": "fiba-basketball-www-fiba-basketball-en-events-fiba-womens-basketball-wor",
@@ -109,7 +127,7 @@
         "Women's World Cup"
       ],
       "relatedItemCount": 1,
-      "checkedAt": "2026-05-17T15:19:28.769Z"
+      "checkedAt": "2026-05-17T15:26:12.907Z"
     },
     {
       "id": "fiba-event-calendar-www-fiba-basketball-en-events",
@@ -126,7 +144,7 @@
         "World Cup"
       ],
       "relatedItemCount": 1,
-      "checkedAt": "2026-05-17T15:19:29.044Z"
+      "checkedAt": "2026-05-17T15:26:12.798Z"
     },
     {
       "id": "ittf-2026-events-calendar-www-ittf-com-2026-events-calendar",
@@ -143,7 +161,7 @@
         "Events"
       ],
       "relatedItemCount": 6,
-      "checkedAt": "2026-05-17T15:19:26.510Z"
+      "checkedAt": "2026-05-17T15:26:11.344Z"
     },
     {
       "id": "major-league-pickleball-majorleaguepickleball-co-news-major-league-pickl",
@@ -162,17 +180,25 @@
         "pickleball"
       ],
       "relatedItemCount": 2,
-      "checkedAt": "2026-05-17T15:19:26.569Z"
+      "checkedAt": "2026-05-17T15:26:11.348Z"
     },
     {
       "id": "matchroom-pool-matchroompool-com-uk-open-pool-championship",
       "name": "Matchroom Pool",
       "url": "https://matchroompool.com/uk-open-pool-championship/",
       "adapter": "matchroom-pool",
-      "ok": false,
-      "status": "error",
-      "error": "This operation was aborted",
-      "checkedAt": "2026-05-17T15:19:29.395Z"
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://matchroompool.com/uk-open-pool-championship/",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "UK Open Pool Championship Archives - Matchroom Pool",
+      "matchedMarkers": [
+        "Matchroom",
+        "Pool",
+        "pool"
+      ],
+      "relatedItemCount": 1,
+      "checkedAt": "2026-05-17T15:26:12.131Z"
     },
     {
       "id": "nba-playoffs-www-nba-com-playoffs-2026-nba-finals",
@@ -182,26 +208,23 @@
       "ok": false,
       "status": "error",
       "error": "This operation was aborted",
-      "checkedAt": "2026-05-17T15:19:29.397Z"
+      "checkedAt": "2026-05-17T15:26:15.778Z"
     },
     {
       "id": "ppa-tour-ppatour-com-schedule",
       "name": "PPA Tour",
       "url": "https://ppatour.com/schedule/",
       "adapter": "pickleball-tour",
-      "ok": true,
-      "status": 200,
+      "ok": false,
+      "status": 403,
       "finalUrl": "https://ppatour.com/schedule/",
       "contentType": "text/html; charset=UTF-8",
-      "title": "Upcoming Tour Stops | PPA Tour",
+      "title": "Just a moment...",
       "matchedMarkers": [
-        "Pickleball",
-        "PPA",
-        "Asia 500",
-        "China Open"
+        "PPA"
       ],
       "relatedItemCount": 3,
-      "checkedAt": "2026-05-17T15:19:30.901Z"
+      "checkedAt": "2026-05-17T15:26:15.826Z"
     },
     {
       "id": "sydney-marathon-sydneymarathon-com",
@@ -219,7 +242,7 @@
         "Race"
       ],
       "relatedItemCount": 1,
-      "checkedAt": "2026-05-17T15:19:31.333Z"
+      "checkedAt": "2026-05-17T15:26:16.739Z"
     },
     {
       "id": "tcs-new-york-city-marathon-www-tcsnewyorkcitymarathon-org",
@@ -229,7 +252,7 @@
       "ok": false,
       "status": "error",
       "error": "fetch failed",
-      "checkedAt": "2026-05-17T15:19:30.087Z"
+      "checkedAt": "2026-05-17T15:26:16.225Z"
     },
     {
       "id": "waterfront-hall-world-snooker-tour-www-waterfront-co-uk-what-s-on-betvic",
@@ -248,7 +271,7 @@
         "World Snooker Tour"
       ],
       "relatedItemCount": 1,
-      "checkedAt": "2026-05-17T15:19:31.594Z"
+      "checkedAt": "2026-05-17T15:26:17.019Z"
     },
     {
       "id": "world-athletics-worldathletics-org-competitions-world-athletics-u20-cham",
@@ -266,7 +289,7 @@
         "U20"
       ],
       "relatedItemCount": 1,
-      "checkedAt": "2026-05-17T15:19:31.029Z"
+      "checkedAt": "2026-05-17T15:26:15.884Z"
     },
     {
       "id": "wtt-events-worldtabletennis-com-eventslist",
@@ -283,7 +306,7 @@
         "Events"
       ],
       "relatedItemCount": 6,
-      "checkedAt": "2026-05-17T15:19:31.222Z"
+      "checkedAt": "2026-05-17T15:26:17.097Z"
     }
   ]
 }
