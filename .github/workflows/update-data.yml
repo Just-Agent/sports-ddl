@@ -24,11 +24,11 @@ jobs:
       - run: npm run validate
       - run: npm run link-check
         env:
-          LINK_CHECK_TIMEOUT_MS: '3500'
+          LINK_CHECK_TIMEOUT_MS: '4500'
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: 'data: update sports ddl crawl results'
+          commit_message: 'data: update sports-ddl crawl results'
           file_pattern: 'data/*.json'
       - name: Notify Just-DDL Hub
         if: ${{ env.DISPATCH_TOKEN != '' }}

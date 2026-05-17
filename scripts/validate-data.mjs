@@ -1,15 +1,26 @@
 import fs from 'node:fs';
+
 const items = JSON.parse(fs.readFileSync(new URL('../data/items.json', import.meta.url), 'utf8'));
-const sources = JSON.parse(fs.readFileSync(new URL('../data/sources.json', import.meta.url), 'utf8'));
-const errors = []; const ids = new Set();
-if (!Array.isArray(items) || items.length === 0) errors.push('items.json must contain at least one item');
-if (!sources || !Array.isArray(sources.sourceFamilies)) errors.push('sources.json missing sourceFamilies');
-for (const item of items) {
-  for (const key of ['id','title','deadline','url','source','subtopic','subtopicName']) if (!item[key]) errors.push(`${item.id || '<missing-id>'}: missing ${key}`);
-  if (ids.has(item.id)) errors.push(`${item.id}: duplicate id`); ids.add(item.id);
-  if (Number.isNaN(Date.parse(item.deadline))) errors.push(`${item.id}: invalid deadline ${item.deadline}`);
-  if (item.url && !/^https?:\/\//.test(item.url)) errors.push(`${item.id}: invalid url ${item.url}`);
-  if (/\?\?\?\?|�/.test(JSON.stringify(item))) errors.push(`${item.id}: contains mojibake placeholder`);
+const required = ['id', 'title', 'deadline', 'dateRange', 'location', 'tags', 'url', 'status', 'source'];
+const ids = new Set();
+const errors = [];
+
+for (const [index, item] of items.entries()) {
+  for (const key of required) {
+    if (item[key] === undefined || item[key] === null || item[key] === '') errors.push(`item ${index} missing ${key}`);
+  }
+  if (ids.has(item.id)) errors.push(`duplicate id ${item.id}`);
+  ids.add(item.id);
+  if (!Number.isFinite(new Date(item.deadline).getTime())) errors.push(`${item.id} has invalid deadline`);
+  try { new URL(item.url); } catch { errors.push(`${item.id} has invalid url`); }
+  if (item.sourceUrl) {
+    try { new URL(item.sourceUrl); } catch { errors.push(`${item.id} has invalid sourceUrl`); }
+  }
+  if (!Array.isArray(item.tags) || item.tags.length === 0) errors.push(`${item.id} must include tags`);
 }
-if (errors.length) { console.error(errors.join('\n')); process.exit(1); }
-console.log(`validated ${items.length} sports DDL items and ${sources.sourceFamilies.length} source families`);
+
+if (errors.length) {
+  console.error(errors.join('\n'));
+  process.exit(1);
+}
+console.log(`validated ${items.length} DDL items`);

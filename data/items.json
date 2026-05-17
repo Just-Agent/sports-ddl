@@ -1,5 +1,27 @@
 [
   {
+    "id": "sports-ddl-bwf-malaysia-masters-2026-05-19",
+    "title": "Perodua Malaysia Masters 2026",
+    "deadline": "2026-05-19T23:59:59",
+    "dateRange": "May 19-24, 2026",
+    "location": "Kuala Lumpur, Malaysia",
+    "isOnline": false,
+    "tags": [
+      "羽毛球",
+      "BWF",
+      "Super 500"
+    ],
+    "url": "https://bwfbadminton.com/calendar/",
+    "status": "upcoming",
+    "description": "BWF 官方赛历中的世界巡回赛节点，当前按开赛日倒计时。",
+    "stage": "Event start",
+    "source": "BWF Tournament Calendar",
+    "type": "contest",
+    "subtopic": "badminton",
+    "subtopicName": "羽毛球",
+    "sourceUrl": "https://bwfbadminton.com/calendar/"
+  },
+  {
     "id": "sports-ddl-wtt-contender-lagos-2026-05-19",
     "title": "WTT Contender Lagos 2026",
     "deadline": "2026-05-19T23:59:59",
@@ -22,26 +44,26 @@
     "sourceUrl": "https://www.ittf.com/2026-events-calendar/"
   },
   {
-    "id": "sports-ddl-bwf-malaysia-masters-2026-05-19",
-    "title": "Perodua Malaysia Masters 2026",
-    "deadline": "2026-05-19T23:59:59",
-    "dateRange": "May 19-24, 2026",
-    "location": "Kuala Lumpur, Malaysia",
+    "id": "sports-ddl-mlp-dallas-2026-05-22",
+    "title": "Major League Pickleball Dallas 2026",
+    "deadline": "2026-05-22T23:59:59",
+    "dateRange": "May 22-25, 2026",
+    "location": "Dallas, USA",
     "isOnline": false,
     "tags": [
-      "羽毛球",
-      "BWF",
-      "Super 500"
+      "匹克球",
+      "MLP",
+      "pickleball"
     ],
-    "url": "https://bwfbadminton.com/calendar/",
+    "url": "https://majorleaguepickleball.co/news/major-league-pickleball-announces-full-2026-may-august-season-schedule-event-tickets-now-on-sale-via-tixr-and-ticketmaster-2/",
     "status": "upcoming",
-    "description": "BWF 官方赛历中的世界巡回赛节点，当前按开赛日倒计时。",
+    "description": "MLP 官方 2026 season schedule 中的 Dallas regular season 节点。",
     "stage": "Event start",
-    "source": "BWF Tournament Calendar",
+    "source": "Major League Pickleball",
     "type": "contest",
-    "subtopic": "badminton",
-    "subtopicName": "羽毛球",
-    "sourceUrl": "https://bwfbadminton.com/calendar/"
+    "subtopic": "pickleball",
+    "subtopicName": "匹克球",
+    "sourceUrl": "https://majorleaguepickleball.co/news/major-league-pickleball-announces-full-2026-may-august-season-schedule-event-tickets-now-on-sale-via-tixr-and-ticketmaster-2/"
   },
   {
     "id": "sports-ddl-bwf-singapore-open-2026-05-26",
@@ -66,6 +88,50 @@
     "sourceUrl": "https://bwfbadminton.com/calendar/"
   },
   {
+    "id": "sports-ddl-uk-open-pool-championship-2026-05-26",
+    "title": "UK Open Pool Championship 2026",
+    "deadline": "2026-05-26T23:59:59",
+    "dateRange": "May 26-31, 2026",
+    "location": "Brentwood, England",
+    "isOnline": false,
+    "tags": [
+      "台球",
+      "pool",
+      "Matchroom"
+    ],
+    "url": "https://matchroompool.com/uk-open-pool-championship/",
+    "status": "upcoming",
+    "description": "Matchroom Pool 赛事入口与公开赛报道确认的九球公开赛节点，按正赛开赛日倒计时。",
+    "stage": "Event start",
+    "source": "Matchroom Pool",
+    "type": "contest",
+    "subtopic": "billiards",
+    "subtopicName": "台球",
+    "sourceUrl": "https://matchroompool.com/uk-open-pool-championship/"
+  },
+  {
+    "id": "sports-ddl-ppa-asia-macao-open-2026-05-27",
+    "title": "PPA Asia 500 Macao Open 2026",
+    "deadline": "2026-05-27T23:59:59",
+    "dateRange": "May 27-31, 2026",
+    "location": "Macao, China",
+    "isOnline": false,
+    "tags": [
+      "匹克球",
+      "PPA",
+      "Asia 500"
+    ],
+    "url": "https://ppatour.com/schedule/",
+    "status": "upcoming",
+    "description": "PPA Tour 官方 schedule 中的 Macao Open 节点。",
+    "stage": "Event start",
+    "source": "PPA Tour",
+    "type": "contest",
+    "subtopic": "pickleball",
+    "subtopicName": "匹克球",
+    "sourceUrl": "https://ppatour.com/schedule/"
+  },
+  {
     "id": "sports-ddl-bwf-indonesia-open-2026-06-02",
     "title": "Indonesia Open 2026",
     "deadline": "2026-06-02T23:59:59",
@@ -86,6 +152,50 @@
     "subtopic": "badminton",
     "subtopicName": "羽毛球",
     "sourceUrl": "https://bwfbadminton.com/calendar/"
+  },
+  {
+    "id": "sports-ddl-nba-finals-2026-06-03",
+    "title": "NBA Finals 2026",
+    "deadline": "2026-06-03T23:59:59",
+    "dateRange": "Jun 3-19, 2026",
+    "location": "North America, team arenas",
+    "isOnline": false,
+    "tags": [
+      "篮球",
+      "NBA",
+      "Finals"
+    ],
+    "url": "https://www.nba.com/playoffs/2026/nba-finals",
+    "status": "upcoming",
+    "description": "NBA 官方 Finals 页面列出的总决赛赛程，当前按 Game 1 开赛日展示倒计时。",
+    "stage": "Finals start",
+    "source": "NBA Playoffs",
+    "type": "contest",
+    "subtopic": "basketball",
+    "subtopicName": "篮球",
+    "sourceUrl": "https://www.nba.com/playoffs/2026/nba-finals"
+  },
+  {
+    "id": "sports-ddl-mlp-st-louis-2026-06-04",
+    "title": "Major League Pickleball St. Louis 2026",
+    "deadline": "2026-06-04T23:59:59",
+    "dateRange": "Jun 4-7, 2026",
+    "location": "St. Louis, USA",
+    "isOnline": false,
+    "tags": [
+      "匹克球",
+      "MLP",
+      "pickleball"
+    ],
+    "url": "https://majorleaguepickleball.co/news/major-league-pickleball-announces-full-2026-may-august-season-schedule-event-tickets-now-on-sale-via-tixr-and-ticketmaster-2/",
+    "status": "upcoming",
+    "description": "MLP 官方 2026 season schedule 中的 St. Louis regular season 节点。",
+    "stage": "Event start",
+    "source": "Major League Pickleball",
+    "type": "contest",
+    "subtopic": "pickleball",
+    "subtopicName": "匹克球",
+    "sourceUrl": "https://majorleaguepickleball.co/news/major-league-pickleball-announces-full-2026-may-august-season-schedule-event-tickets-now-on-sale-via-tixr-and-ticketmaster-2/"
   },
   {
     "id": "sports-ddl-ittf-world-masters-gangneung-2026-06-05",
@@ -132,28 +242,6 @@
     "sourceUrl": "https://bwfbadminton.com/calendar/"
   },
   {
-    "id": "sports-ddl-wtt-star-contender-ljubljana-2026-06-16",
-    "title": "WTT Star Contender Ljubljana 2026",
-    "deadline": "2026-06-16T23:59:59",
-    "dateRange": "Jun 16-21, 2026",
-    "location": "Ljubljana, Slovenia",
-    "isOnline": false,
-    "tags": [
-      "乒乓球",
-      "WTT",
-      "Star Contender"
-    ],
-    "url": "https://worldtabletennis.com/eventslist",
-    "status": "upcoming",
-    "description": "WTT 职业赛历节点，后续 crawler 会继续补齐官方详情页与报名信息。",
-    "stage": "Event start",
-    "source": "WTT Events",
-    "type": "contest",
-    "subtopic": "table-tennis",
-    "subtopicName": "乒乓球",
-    "sourceUrl": "https://worldtabletennis.com/eventslist"
-  },
-  {
     "id": "sports-ddl-bwf-macau-open-2026-06-16",
     "title": "Macau Open 2026",
     "deadline": "2026-06-16T23:59:59",
@@ -176,6 +264,50 @@
     "sourceUrl": "https://bwfbadminton.com/calendar/"
   },
   {
+    "id": "sports-ddl-wtt-star-contender-ljubljana-2026-06-16",
+    "title": "WTT Star Contender Ljubljana 2026",
+    "deadline": "2026-06-16T23:59:59",
+    "dateRange": "Jun 16-21, 2026",
+    "location": "Ljubljana, Slovenia",
+    "isOnline": false,
+    "tags": [
+      "乒乓球",
+      "WTT",
+      "Star Contender"
+    ],
+    "url": "https://worldtabletennis.com/eventslist",
+    "status": "upcoming",
+    "description": "WTT 职业赛历节点，后续 crawler 会继续补齐官方详情页与报名信息。",
+    "stage": "Event start",
+    "source": "WTT Events",
+    "type": "contest",
+    "subtopic": "table-tennis",
+    "subtopicName": "乒乓球",
+    "sourceUrl": "https://worldtabletennis.com/eventslist"
+  },
+  {
+    "id": "sports-ddl-ppa-asia-china-open-1-2026-06-17",
+    "title": "PPA Asia 500 China Open 1 2026",
+    "deadline": "2026-06-17T23:59:59",
+    "dateRange": "Jun 17-21, 2026",
+    "location": "China",
+    "isOnline": false,
+    "tags": [
+      "匹克球",
+      "PPA",
+      "China Open"
+    ],
+    "url": "https://ppatour.com/schedule/",
+    "status": "upcoming",
+    "description": "PPA Tour 官方 schedule 中的 China Open 1 节点。",
+    "stage": "Event start",
+    "source": "PPA Tour",
+    "type": "contest",
+    "subtopic": "pickleball",
+    "subtopicName": "匹克球",
+    "sourceUrl": "https://ppatour.com/schedule/"
+  },
+  {
     "id": "sports-ddl-wtt-united-states-smash-2026-06-25",
     "title": "WTT United States Smash 2026",
     "deadline": "2026-06-25T23:59:59",
@@ -196,6 +328,28 @@
     "subtopic": "table-tennis",
     "subtopicName": "乒乓球",
     "sourceUrl": "https://worldtabletennis.com/eventslist"
+  },
+  {
+    "id": "sports-ddl-fiba-u17-world-cup-2026-06-27",
+    "title": "FIBA U17 Basketball World Cup 2026",
+    "deadline": "2026-06-27T23:59:59",
+    "dateRange": "Jun 27 - Jul 5, 2026",
+    "location": "Istanbul, Turkiye",
+    "isOnline": false,
+    "tags": [
+      "篮球",
+      "FIBA",
+      "U17"
+    ],
+    "url": "https://www.fiba.basketball/en/events/fiba-u17-basketball-world-cup-2026",
+    "status": "upcoming",
+    "description": "FIBA 官方赛事页确认的 U17 男篮世界杯节点，按首个比赛日倒计时。",
+    "stage": "Event start",
+    "source": "FIBA Basketball",
+    "type": "contest",
+    "subtopic": "basketball",
+    "subtopicName": "篮球",
+    "sourceUrl": "https://www.fiba.basketball/en/events/fiba-u17-basketball-world-cup-2026"
   },
   {
     "id": "sports-ddl-bwf-canada-open-2026-06-30",
@@ -242,6 +396,28 @@
     "sourceUrl": "https://www.ittf.com/2026-events-calendar/"
   },
   {
+    "id": "sports-ddl-fiba-u17-womens-world-cup-2026-07-11",
+    "title": "FIBA U17 Women's Basketball World Cup 2026",
+    "deadline": "2026-07-11T23:59:59",
+    "dateRange": "Jul 11-19, 2026",
+    "location": "Brno, Czechia",
+    "isOnline": false,
+    "tags": [
+      "篮球",
+      "FIBA",
+      "Women's U17"
+    ],
+    "url": "https://www.fiba.basketball/en/events",
+    "status": "upcoming",
+    "description": "FIBA 官方 event calendar 中的 U17 女篮世界杯节点，后续 crawler 可接入赛事详情页。",
+    "stage": "Event start",
+    "source": "FIBA Event Calendar",
+    "type": "contest",
+    "subtopic": "basketball",
+    "subtopicName": "篮球",
+    "sourceUrl": "https://www.fiba.basketball/en/events"
+  },
+  {
     "id": "sports-ddl-bwf-japan-open-2026-07-14",
     "title": "Japan Open 2026",
     "deadline": "2026-07-14T23:59:59",
@@ -286,26 +462,27 @@
     "sourceUrl": "https://bwfbadminton.com/calendar/"
   },
   {
-    "id": "sports-ddl-wtt-champions-yokohama-2026-08-05",
-    "title": "WTT Champions Yokohama 2026",
-    "deadline": "2026-08-05T23:59:59",
-    "dateRange": "Aug 5-9, 2026",
-    "location": "Yokohama, Japan",
+    "id": "sports-ddl-apa-world-pool-championships-2026-08-04",
+    "title": "APA World Pool Championships 2026",
+    "deadline": "2026-08-04T23:59:59",
+    "dateRange": "Aug 4-15, 2026",
+    "location": "Las Vegas, USA",
     "isOnline": false,
     "tags": [
-      "乒乓球",
-      "WTT",
-      "Champions"
+      "台球",
+      "APA",
+      "8-Ball",
+      "9-Ball"
     ],
-    "url": "https://worldtabletennis.com/eventslist",
+    "url": "https://poolplayers.com/world-pool-championships/",
     "status": "upcoming",
-    "description": "WTT Champions 级别赛事，适合关注签表、资格和直播赛程。",
+    "description": "APA 官方页面列出的 8-Ball 与 9-Ball World Championships 赛事窗口。",
     "stage": "Event start",
-    "source": "WTT Events",
+    "source": "APA Poolplayers",
     "type": "contest",
-    "subtopic": "table-tennis",
-    "subtopicName": "乒乓球",
-    "sourceUrl": "https://worldtabletennis.com/eventslist"
+    "subtopic": "billiards",
+    "subtopicName": "台球",
+    "sourceUrl": "https://poolplayers.com/world-pool-championships/"
   },
   {
     "id": "sports-ddl-world-athletics-u20-oregon-2026-08-05",
@@ -328,6 +505,28 @@
     "subtopic": "running-athletics",
     "subtopicName": "路跑与田径",
     "sourceUrl": "https://worldathletics.org/competitions/world-athletics-u20-championships"
+  },
+  {
+    "id": "sports-ddl-wtt-champions-yokohama-2026-08-05",
+    "title": "WTT Champions Yokohama 2026",
+    "deadline": "2026-08-05T23:59:59",
+    "dateRange": "Aug 5-9, 2026",
+    "location": "Yokohama, Japan",
+    "isOnline": false,
+    "tags": [
+      "乒乓球",
+      "WTT",
+      "Champions"
+    ],
+    "url": "https://worldtabletennis.com/eventslist",
+    "status": "upcoming",
+    "description": "WTT Champions 级别赛事，适合关注签表、资格和直播赛程。",
+    "stage": "Event start",
+    "source": "WTT Events",
+    "type": "contest",
+    "subtopic": "table-tennis",
+    "subtopicName": "乒乓球",
+    "sourceUrl": "https://worldtabletennis.com/eventslist"
   },
   {
     "id": "sports-ddl-wtt-europe-smash-sweden-2026-08-13",
@@ -374,6 +573,28 @@
     "sourceUrl": "https://sydneymarathon.com/"
   },
   {
+    "id": "sports-ddl-veolia-pickleball-national-championships-2026-08-31",
+    "title": "Veolia Pickleball National Championships 2026",
+    "deadline": "2026-08-31T23:59:59",
+    "dateRange": "Aug 31 - Sep 6, 2026",
+    "location": "Cary, USA",
+    "isOnline": false,
+    "tags": [
+      "匹克球",
+      "PPA",
+      "Nationals"
+    ],
+    "url": "https://ppatour.com/schedule/",
+    "status": "upcoming",
+    "description": "PPA Tour 官方 schedule 中的 Pickleball National Championships 节点。",
+    "stage": "Event start",
+    "source": "PPA Tour",
+    "type": "contest",
+    "subtopic": "pickleball",
+    "subtopicName": "匹克球",
+    "sourceUrl": "https://ppatour.com/schedule/"
+  },
+  {
     "id": "sports-ddl-bwf-china-masters-2026-09-01",
     "title": "China Masters 2026",
     "deadline": "2026-09-01T23:59:59",
@@ -394,6 +615,28 @@
     "subtopic": "badminton",
     "subtopicName": "羽毛球",
     "sourceUrl": "https://bwfbadminton.com/calendar/"
+  },
+  {
+    "id": "sports-ddl-fiba-womens-world-cup-2026-09-04",
+    "title": "FIBA Women's Basketball World Cup 2026",
+    "deadline": "2026-09-04T23:59:59",
+    "dateRange": "Sep 4-13, 2026",
+    "location": "Berlin, Germany",
+    "isOnline": false,
+    "tags": [
+      "篮球",
+      "FIBA",
+      "Women's World Cup"
+    ],
+    "url": "https://www.fiba.basketball/en/events/fiba-womens-basketball-world-cup-2026",
+    "status": "upcoming",
+    "description": "FIBA 官方女篮世界杯页面确认的柏林赛事窗口，当前按小组赛首日倒计时。",
+    "stage": "Event start",
+    "source": "FIBA Basketball",
+    "type": "contest",
+    "subtopic": "basketball",
+    "subtopicName": "篮球",
+    "sourceUrl": "https://www.fiba.basketball/en/events/fiba-womens-basketball-world-cup-2026"
   },
   {
     "id": "sports-ddl-bwf-hong-kong-open-2026-09-08",
@@ -550,6 +793,28 @@
     "sourceUrl": "https://bwfbadminton.com/calendar/"
   },
   {
+    "id": "sports-ddl-northern-ireland-open-snooker-2026-10-18",
+    "title": "BetVictor Northern Ireland Open 2026",
+    "deadline": "2026-10-18T23:59:59",
+    "dateRange": "Oct 18-25, 2026",
+    "location": "Belfast, Northern Ireland",
+    "isOnline": false,
+    "tags": [
+      "台球",
+      "snooker",
+      "World Snooker Tour"
+    ],
+    "url": "https://www.waterfront.co.uk/what-s-on/betvictor-northern-ireland-open/",
+    "status": "upcoming",
+    "description": "Waterfront Hall 官方售票页确认 World Snooker Tour 北爱尔兰公开赛日期。",
+    "stage": "Event start",
+    "source": "Waterfront Hall / World Snooker Tour",
+    "type": "contest",
+    "subtopic": "billiards",
+    "subtopicName": "台球",
+    "sourceUrl": "https://www.waterfront.co.uk/what-s-on/betvictor-northern-ireland-open/"
+  },
+  {
     "id": "sports-ddl-bwf-french-open-2026-10-20",
     "title": "French Open 2026",
     "deadline": "2026-10-20T23:59:59",
@@ -614,6 +879,28 @@
     "subtopic": "running-athletics",
     "subtopicName": "路跑与田径",
     "sourceUrl": "https://www.tcsnewyorkcitymarathon.org/"
+  },
+  {
+    "id": "sports-ddl-apa-us-amateur-championship-2026-11-13",
+    "title": "APA U.S. Amateur Championship 2026",
+    "deadline": "2026-11-13T23:59:59",
+    "dateRange": "Nov 13-15, 2026",
+    "location": "Las Vegas, USA",
+    "isOnline": false,
+    "tags": [
+      "台球",
+      "APA",
+      "amateur"
+    ],
+    "url": "https://poolplayers.com/us-amateur-championship/",
+    "status": "upcoming",
+    "description": "APA 官方 U.S. Amateur Championship 页面列出的 2026 冠军赛节点。",
+    "stage": "Event start",
+    "source": "APA Poolplayers",
+    "type": "contest",
+    "subtopic": "billiards",
+    "subtopicName": "台球",
+    "sourceUrl": "https://poolplayers.com/us-amateur-championship/"
   },
   {
     "id": "sports-ddl-ittf-world-youth-championships-manama-2026-11-21",

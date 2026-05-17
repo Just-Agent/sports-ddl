@@ -1,60 +1,289 @@
 {
-  "generatedAt": "2026-05-17T14:05:19.482Z",
+  "generatedAt": "2026-05-17T15:19:31.594Z",
   "checks": [
     {
-      "id": "ittf-2026-calendar",
-      "name": "ITTF 2026 Events Calendar",
-      "url": "https://www.ittf.com/2026-events-calendar/",
-      "adapter": "ittfCalendarAdapter",
+      "id": "apa-poolplayers-poolplayers-com-world-pool-championships",
+      "name": "APA Poolplayers",
+      "url": "https://poolplayers.com/world-pool-championships/",
+      "adapter": "apa-pool",
       "ok": false,
-      "status": 403,
-      "finalUrl": "https://www.ittf.com/2026-events-calendar/",
-      "title": "Just a moment...",
-      "checkedAt": "2026-05-17T14:05:17.215Z"
+      "status": "error",
+      "error": "This operation was aborted",
+      "checkedAt": "2026-05-17T15:19:25.826Z"
     },
     {
-      "id": "wtt-events",
-      "name": "WTT Events",
-      "url": "https://worldtabletennis.com/eventslist",
-      "adapter": "wttEventsAdapter",
+      "id": "apa-poolplayers-poolplayers-com-us-amateur-championship",
+      "name": "APA Poolplayers",
+      "url": "https://poolplayers.com/us-amateur-championship/",
+      "adapter": "apa-pool",
       "ok": true,
       "status": 200,
-      "finalUrl": "https://www.worldtabletennis.com/eventslist",
-      "title": "World Table Tennis",
-      "checkedAt": "2026-05-17T14:05:18.912Z"
+      "finalUrl": "https://poolplayers.com/us-amateur-championship/",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "U.S. Amateur Championship - American Poolplayers Association",
+      "matchedMarkers": [
+        "APA",
+        "Pool",
+        "amateur"
+      ],
+      "relatedItemCount": 1,
+      "checkedAt": "2026-05-17T15:19:25.044Z"
     },
     {
-      "id": "bwf-calendar",
+      "id": "bmw-berlin-marathon-www-bmw-berlin-marathon-com",
+      "name": "BMW Berlin Marathon",
+      "url": "https://www.bmw-berlin-marathon.com/",
+      "adapter": "race-calendar",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.bmw-berlin-marathon.com/",
+      "contentType": "text/html; charset=utf-8",
+      "title": "BMW BERLIN-MARATHON 2026",
+      "matchedMarkers": [
+        "Marathon",
+        "Race",
+        "road race"
+      ],
+      "relatedItemCount": 1,
+      "checkedAt": "2026-05-17T15:19:23.629Z"
+    },
+    {
+      "id": "bwf-tournament-calendar-bwfbadminton-com-calendar",
       "name": "BWF Tournament Calendar",
       "url": "https://bwfbadminton.com/calendar/",
-      "adapter": "bwfCalendarAdapter",
+      "adapter": "bwf-calendar",
       "ok": false,
       "status": 403,
       "finalUrl": "https://bwfbadminton.com/calendar/",
+      "contentType": "text/html; charset=UTF-8",
       "title": "Attention Required! | Cloudflare",
-      "checkedAt": "2026-05-17T14:05:19.040Z"
+      "matchedMarkers": [
+        "BWF"
+      ],
+      "relatedItemCount": 14,
+      "checkedAt": "2026-05-17T15:19:23.057Z"
     },
     {
-      "id": "world-athletics",
+      "id": "chicago-marathon-www-chicagomarathon-com",
+      "name": "Chicago Marathon",
+      "url": "https://www.chicagomarathon.com/",
+      "adapter": "race-calendar",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.chicagomarathon.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "Bank of America Chicago Marathon",
+      "matchedMarkers": [
+        "Marathon",
+        "Race",
+        "Race day",
+        "World Marathon Majors"
+      ],
+      "relatedItemCount": 1,
+      "checkedAt": "2026-05-17T15:19:25.279Z"
+    },
+    {
+      "id": "fiba-basketball-www-fiba-basketball-en-events-fiba-u17-basketball-world-",
+      "name": "FIBA Basketball",
+      "url": "https://www.fiba.basketball/en/events/fiba-u17-basketball-world-cup-2026",
+      "adapter": "fiba-event",
+      "ok": false,
+      "status": "error",
+      "error": "This operation was aborted",
+      "checkedAt": "2026-05-17T15:19:25.891Z"
+    },
+    {
+      "id": "fiba-basketball-www-fiba-basketball-en-events-fiba-womens-basketball-wor",
+      "name": "FIBA Basketball",
+      "url": "https://www.fiba.basketball/en/events/fiba-womens-basketball-world-cup-2026",
+      "adapter": "fiba-event",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.fiba.basketball/en/events/fiba-womens-basketball-world-cup-2026",
+      "contentType": "text/html; charset=utf-8",
+      "title": "FIBA Women&#x27;s Basketball World Cup 2026 Official Website | FIBA Basketball",
+      "matchedMarkers": [
+        "FIBA",
+        "World Cup",
+        "FIBA Women's Basketball World Cup 2026",
+        "Women's World Cup"
+      ],
+      "relatedItemCount": 1,
+      "checkedAt": "2026-05-17T15:19:28.769Z"
+    },
+    {
+      "id": "fiba-event-calendar-www-fiba-basketball-en-events",
+      "name": "FIBA Event Calendar",
+      "url": "https://www.fiba.basketball/en/events",
+      "adapter": "fiba-event",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.fiba.basketball/en/events",
+      "contentType": "text/html; charset=utf-8",
+      "title": "Event Calendar &amp; Schedule | FIBA Basketball",
+      "matchedMarkers": [
+        "FIBA",
+        "World Cup"
+      ],
+      "relatedItemCount": 1,
+      "checkedAt": "2026-05-17T15:19:29.044Z"
+    },
+    {
+      "id": "ittf-2026-events-calendar-www-ittf-com-2026-events-calendar",
+      "name": "ITTF 2026 Events Calendar",
+      "url": "https://www.ittf.com/2026-events-calendar/",
+      "adapter": "ittf-calendar",
+      "ok": false,
+      "status": 403,
+      "finalUrl": "https://www.ittf.com/2026-events-calendar/",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "Just a moment...",
+      "matchedMarkers": [
+        "ITTF",
+        "Events"
+      ],
+      "relatedItemCount": 6,
+      "checkedAt": "2026-05-17T15:19:26.510Z"
+    },
+    {
+      "id": "major-league-pickleball-majorleaguepickleball-co-news-major-league-pickl",
+      "name": "Major League Pickleball",
+      "url": "https://majorleaguepickleball.co/news/major-league-pickleball-announces-full-2026-may-august-season-schedule-event-tickets-now-on-sale-via-tixr-and-ticketmaster-2/",
+      "adapter": "pickleball-tour",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://majorleaguepickleball.co/news/major-league-pickleball-announces-full-2026-may-august-season-schedule-event-tickets-now-on-sale-via-tixr-and-ticketmaster-2/",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "Major League Pickleball Announces 2026 Season Schedule",
+      "matchedMarkers": [
+        "Pickleball",
+        "PPA",
+        "MLP",
+        "pickleball"
+      ],
+      "relatedItemCount": 2,
+      "checkedAt": "2026-05-17T15:19:26.569Z"
+    },
+    {
+      "id": "matchroom-pool-matchroompool-com-uk-open-pool-championship",
+      "name": "Matchroom Pool",
+      "url": "https://matchroompool.com/uk-open-pool-championship/",
+      "adapter": "matchroom-pool",
+      "ok": false,
+      "status": "error",
+      "error": "This operation was aborted",
+      "checkedAt": "2026-05-17T15:19:29.395Z"
+    },
+    {
+      "id": "nba-playoffs-www-nba-com-playoffs-2026-nba-finals",
+      "name": "NBA Playoffs",
+      "url": "https://www.nba.com/playoffs/2026/nba-finals",
+      "adapter": "nba-playoffs",
+      "ok": false,
+      "status": "error",
+      "error": "This operation was aborted",
+      "checkedAt": "2026-05-17T15:19:29.397Z"
+    },
+    {
+      "id": "ppa-tour-ppatour-com-schedule",
+      "name": "PPA Tour",
+      "url": "https://ppatour.com/schedule/",
+      "adapter": "pickleball-tour",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://ppatour.com/schedule/",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "Upcoming Tour Stops | PPA Tour",
+      "matchedMarkers": [
+        "Pickleball",
+        "PPA",
+        "Asia 500",
+        "China Open"
+      ],
+      "relatedItemCount": 3,
+      "checkedAt": "2026-05-17T15:19:30.901Z"
+    },
+    {
+      "id": "sydney-marathon-sydneymarathon-com",
+      "name": "Sydney Marathon",
+      "url": "https://sydneymarathon.com/",
+      "adapter": "race-calendar",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://sydneymarathon.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "Home - Sydney Marathon | Sydney Marathon",
+      "matchedMarkers": [
+        "Marathon",
+        "Athletics",
+        "Race"
+      ],
+      "relatedItemCount": 1,
+      "checkedAt": "2026-05-17T15:19:31.333Z"
+    },
+    {
+      "id": "tcs-new-york-city-marathon-www-tcsnewyorkcitymarathon-org",
+      "name": "TCS New York City Marathon",
+      "url": "https://www.tcsnewyorkcitymarathon.org/",
+      "adapter": "race-calendar",
+      "ok": false,
+      "status": "error",
+      "error": "fetch failed",
+      "checkedAt": "2026-05-17T15:19:30.087Z"
+    },
+    {
+      "id": "waterfront-hall-world-snooker-tour-www-waterfront-co-uk-what-s-on-betvic",
+      "name": "Waterfront Hall / World Snooker Tour",
+      "url": "https://www.waterfront.co.uk/what-s-on/betvictor-northern-ireland-open/",
+      "adapter": "snooker-event",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.waterfront.co.uk/what-s-on/betvictor-northern-ireland-open/",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "World Snooker Tour 2026 | 18 - 25 October 2026 | Waterfront Hall",
+      "matchedMarkers": [
+        "Snooker",
+        "Open",
+        "snooker",
+        "World Snooker Tour"
+      ],
+      "relatedItemCount": 1,
+      "checkedAt": "2026-05-17T15:19:31.594Z"
+    },
+    {
+      "id": "world-athletics-worldathletics-org-competitions-world-athletics-u20-cham",
       "name": "World Athletics",
       "url": "https://worldathletics.org/competitions/world-athletics-u20-championships",
-      "adapter": "worldAthleticsAdapter",
+      "adapter": "race-calendar",
       "ok": true,
       "status": 200,
       "finalUrl": "https://worldathletics.org/competitions/world-athletics-u20-championships/oregon26",
+      "contentType": "text/html; charset=utf-8",
       "title": "Home | Oregon 26 | World Athletics U20 Championships",
-      "checkedAt": "2026-05-17T14:05:19.314Z"
+      "matchedMarkers": [
+        "Athletics",
+        "World Athletics",
+        "U20"
+      ],
+      "relatedItemCount": 1,
+      "checkedAt": "2026-05-17T15:19:31.029Z"
     },
     {
-      "id": "marathon-official-sites",
-      "name": "Official marathon event sites",
-      "url": "https://www.worldmarathonmajors.com/",
-      "adapter": "marathonOfficialSitesAdapter",
+      "id": "wtt-events-worldtabletennis-com-eventslist",
+      "name": "WTT Events",
+      "url": "https://worldtabletennis.com/eventslist",
+      "adapter": "wtt-events",
       "ok": true,
       "status": 200,
-      "finalUrl": "https://www.worldmarathonmajors.com/",
-      "title": "Abbott World Marathon Majors",
-      "checkedAt": "2026-05-17T14:05:19.482Z"
+      "finalUrl": "https://www.worldtabletennis.com/eventslist",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "World Table Tennis",
+      "matchedMarkers": [
+        "WTT",
+        "Events"
+      ],
+      "relatedItemCount": 6,
+      "checkedAt": "2026-05-17T15:19:31.222Z"
     }
   ]
 }

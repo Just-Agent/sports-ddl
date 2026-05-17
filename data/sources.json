@@ -1,61 +1,352 @@
 {
   "topicId": "sports-ddl",
-  "generatedAt": "2026-05-17T14:05:19.482Z",
+  "generatedAt": "2026-05-17T15:19:31.594Z",
+  "sourcePolicy": "official-first; authoritative aggregators allowed only when organizer details are not exposed yet",
+  "strictLinkCheckReady": false,
   "sourceFamilies": [
     {
-      "id": "ittf-2026-calendar",
-      "name": "ITTF 2026 Events Calendar",
-      "type": "official",
-      "url": "https://www.ittf.com/2026-events-calendar/",
-      "adapter": "ittfCalendarAdapter",
-      "subtopics": [
-        "table-tennis"
+      "id": "apa-poolplayers-poolplayers-com-world-pool-championships",
+      "name": "APA Poolplayers",
+      "url": "https://poolplayers.com/world-pool-championships/",
+      "adapter": "apa-pool",
+      "expectedMarkers": [
+        "APA World Pool Championships 2026",
+        "Event start",
+        "APA",
+        "8-Ball",
+        "9-Ball"
       ],
-      "lastCheckedAt": "2026-05-17T14:05:19.482Z"
+      "relatedItems": [
+        "sports-ddl-apa-world-pool-championships-2026-08-04"
+      ],
+      "lastCheckedAt": "2026-05-17T15:19:31.594Z"
     },
     {
-      "id": "wtt-events",
-      "name": "WTT Events",
-      "type": "official",
-      "url": "https://worldtabletennis.com/eventslist",
-      "adapter": "wttEventsAdapter",
-      "subtopics": [
-        "table-tennis"
+      "id": "apa-poolplayers-poolplayers-com-us-amateur-championship",
+      "name": "APA Poolplayers",
+      "url": "https://poolplayers.com/us-amateur-championship/",
+      "adapter": "apa-pool",
+      "expectedMarkers": [
+        "APA U.S. Amateur Championship 2026",
+        "Event start",
+        "APA",
+        "amateur"
       ],
-      "lastCheckedAt": "2026-05-17T14:05:19.482Z"
+      "relatedItems": [
+        "sports-ddl-apa-us-amateur-championship-2026-11-13"
+      ],
+      "lastCheckedAt": "2026-05-17T15:19:31.594Z"
     },
     {
-      "id": "bwf-calendar",
+      "id": "bmw-berlin-marathon-www-bmw-berlin-marathon-com",
+      "name": "BMW Berlin Marathon",
+      "url": "https://www.bmw-berlin-marathon.com/",
+      "adapter": "race-calendar",
+      "expectedMarkers": [
+        "BMW Berlin Marathon 2026",
+        "Race day",
+        "马拉松",
+        "World Marathon Majors",
+        "road race"
+      ],
+      "relatedItems": [
+        "sports-ddl-berlin-marathon-2026-09-27"
+      ],
+      "lastCheckedAt": "2026-05-17T15:19:31.594Z"
+    },
+    {
+      "id": "bwf-tournament-calendar-bwfbadminton-com-calendar",
       "name": "BWF Tournament Calendar",
-      "type": "official",
       "url": "https://bwfbadminton.com/calendar/",
-      "adapter": "bwfCalendarAdapter",
-      "subtopics": [
-        "badminton"
+      "adapter": "bwf-calendar",
+      "expectedMarkers": [
+        "Perodua Malaysia Masters 2026",
+        "Event start",
+        "羽毛球",
+        "BWF",
+        "Super 500",
+        "KFF Singapore Badminton Open 2026",
+        "Super 750",
+        "Indonesia Open 2026",
+        "Super 1000",
+        "SATHIO Australian Open 2026"
       ],
-      "lastCheckedAt": "2026-05-17T14:05:19.482Z"
+      "relatedItems": [
+        "sports-ddl-bwf-malaysia-masters-2026-05-19",
+        "sports-ddl-bwf-singapore-open-2026-05-26",
+        "sports-ddl-bwf-indonesia-open-2026-06-02",
+        "sports-ddl-bwf-australian-open-2026-06-09",
+        "sports-ddl-bwf-macau-open-2026-06-16",
+        "sports-ddl-bwf-canada-open-2026-06-30",
+        "sports-ddl-bwf-japan-open-2026-07-14",
+        "sports-ddl-bwf-china-open-2026-07-21",
+        "sports-ddl-bwf-china-masters-2026-09-01",
+        "sports-ddl-bwf-hong-kong-open-2026-09-08",
+        "sports-ddl-bwf-arctic-open-2026-10-06",
+        "sports-ddl-bwf-denmark-open-2026-10-13",
+        "sports-ddl-bwf-french-open-2026-10-20",
+        "sports-ddl-bwf-hylo-open-2026-10-27"
+      ],
+      "lastCheckedAt": "2026-05-17T15:19:31.594Z"
     },
     {
-      "id": "world-athletics",
+      "id": "chicago-marathon-www-chicagomarathon-com",
+      "name": "Chicago Marathon",
+      "url": "https://www.chicagomarathon.com/",
+      "adapter": "race-calendar",
+      "expectedMarkers": [
+        "Bank of America Chicago Marathon 2026",
+        "Race day",
+        "马拉松",
+        "World Marathon Majors",
+        "road race"
+      ],
+      "relatedItems": [
+        "sports-ddl-chicago-marathon-2026-10-11"
+      ],
+      "lastCheckedAt": "2026-05-17T15:19:31.594Z"
+    },
+    {
+      "id": "fiba-basketball-www-fiba-basketball-en-events-fiba-u17-basketball-world-",
+      "name": "FIBA Basketball",
+      "url": "https://www.fiba.basketball/en/events/fiba-u17-basketball-world-cup-2026",
+      "adapter": "fiba-event",
+      "expectedMarkers": [
+        "FIBA U17 Basketball World Cup 2026",
+        "Event start",
+        "FIBA",
+        "U17"
+      ],
+      "relatedItems": [
+        "sports-ddl-fiba-u17-world-cup-2026-06-27"
+      ],
+      "lastCheckedAt": "2026-05-17T15:19:31.594Z"
+    },
+    {
+      "id": "fiba-basketball-www-fiba-basketball-en-events-fiba-womens-basketball-wor",
+      "name": "FIBA Basketball",
+      "url": "https://www.fiba.basketball/en/events/fiba-womens-basketball-world-cup-2026",
+      "adapter": "fiba-event",
+      "expectedMarkers": [
+        "FIBA Women's Basketball World Cup 2026",
+        "Event start",
+        "FIBA",
+        "Women's World Cup"
+      ],
+      "relatedItems": [
+        "sports-ddl-fiba-womens-world-cup-2026-09-04"
+      ],
+      "lastCheckedAt": "2026-05-17T15:19:31.594Z"
+    },
+    {
+      "id": "fiba-event-calendar-www-fiba-basketball-en-events",
+      "name": "FIBA Event Calendar",
+      "url": "https://www.fiba.basketball/en/events",
+      "adapter": "fiba-event",
+      "expectedMarkers": [
+        "FIBA U17 Women's Basketball World Cup 2026",
+        "Event start",
+        "FIBA",
+        "Women's U17"
+      ],
+      "relatedItems": [
+        "sports-ddl-fiba-u17-womens-world-cup-2026-07-11"
+      ],
+      "lastCheckedAt": "2026-05-17T15:19:31.594Z"
+    },
+    {
+      "id": "ittf-2026-events-calendar-www-ittf-com-2026-events-calendar",
+      "name": "ITTF 2026 Events Calendar",
+      "url": "https://www.ittf.com/2026-events-calendar/",
+      "adapter": "ittf-calendar",
+      "expectedMarkers": [
+        "WTT Contender Lagos 2026",
+        "Event start",
+        "乒乓球",
+        "WTT",
+        "Contender",
+        "ITTF World Masters Championships Gangneung 2026",
+        "ITTF",
+        "Masters",
+        "WTT Youth Contender Hong Kong 2026",
+        "WTT Youth"
+      ],
+      "relatedItems": [
+        "sports-ddl-wtt-contender-lagos-2026-05-19",
+        "sports-ddl-ittf-world-masters-gangneung-2026-06-05",
+        "sports-ddl-wtt-youth-contender-hong-kong-2026-07-06",
+        "sports-ddl-attu-asian-table-tennis-championships-2026-10-12",
+        "sports-ddl-ittf-world-youth-championships-manama-2026-11-21",
+        "sports-ddl-ittf-mixed-team-world-cup-chengdu-2026-11-29"
+      ],
+      "lastCheckedAt": "2026-05-17T15:19:31.594Z"
+    },
+    {
+      "id": "major-league-pickleball-majorleaguepickleball-co-news-major-league-pickl",
+      "name": "Major League Pickleball",
+      "url": "https://majorleaguepickleball.co/news/major-league-pickleball-announces-full-2026-may-august-season-schedule-event-tickets-now-on-sale-via-tixr-and-ticketmaster-2/",
+      "adapter": "pickleball-tour",
+      "expectedMarkers": [
+        "Major League Pickleball Dallas 2026",
+        "Event start",
+        "匹克球",
+        "MLP",
+        "pickleball",
+        "Major League Pickleball St. Louis 2026"
+      ],
+      "relatedItems": [
+        "sports-ddl-mlp-dallas-2026-05-22",
+        "sports-ddl-mlp-st-louis-2026-06-04"
+      ],
+      "lastCheckedAt": "2026-05-17T15:19:31.594Z"
+    },
+    {
+      "id": "matchroom-pool-matchroompool-com-uk-open-pool-championship",
+      "name": "Matchroom Pool",
+      "url": "https://matchroompool.com/uk-open-pool-championship/",
+      "adapter": "matchroom-pool",
+      "expectedMarkers": [
+        "UK Open Pool Championship 2026",
+        "Event start",
+        "pool",
+        "Matchroom"
+      ],
+      "relatedItems": [
+        "sports-ddl-uk-open-pool-championship-2026-05-26"
+      ],
+      "lastCheckedAt": "2026-05-17T15:19:31.594Z"
+    },
+    {
+      "id": "nba-playoffs-www-nba-com-playoffs-2026-nba-finals",
+      "name": "NBA Playoffs",
+      "url": "https://www.nba.com/playoffs/2026/nba-finals",
+      "adapter": "nba-playoffs",
+      "expectedMarkers": [
+        "NBA Finals 2026",
+        "Finals start",
+        "NBA",
+        "Finals"
+      ],
+      "relatedItems": [
+        "sports-ddl-nba-finals-2026-06-03"
+      ],
+      "lastCheckedAt": "2026-05-17T15:19:31.594Z"
+    },
+    {
+      "id": "ppa-tour-ppatour-com-schedule",
+      "name": "PPA Tour",
+      "url": "https://ppatour.com/schedule/",
+      "adapter": "pickleball-tour",
+      "expectedMarkers": [
+        "PPA Asia 500 Macao Open 2026",
+        "Event start",
+        "匹克球",
+        "PPA",
+        "Asia 500",
+        "PPA Asia 500 China Open 1 2026",
+        "China Open",
+        "Veolia Pickleball National Championships 2026",
+        "Nationals"
+      ],
+      "relatedItems": [
+        "sports-ddl-ppa-asia-macao-open-2026-05-27",
+        "sports-ddl-ppa-asia-china-open-1-2026-06-17",
+        "sports-ddl-veolia-pickleball-national-championships-2026-08-31"
+      ],
+      "lastCheckedAt": "2026-05-17T15:19:31.594Z"
+    },
+    {
+      "id": "sydney-marathon-sydneymarathon-com",
+      "name": "Sydney Marathon",
+      "url": "https://sydneymarathon.com/",
+      "adapter": "race-calendar",
+      "expectedMarkers": [
+        "Sydney Marathon 2026",
+        "Race day",
+        "马拉松",
+        "World Marathon Majors",
+        "road race"
+      ],
+      "relatedItems": [
+        "sports-ddl-sydney-marathon-2026-08-30"
+      ],
+      "lastCheckedAt": "2026-05-17T15:19:31.594Z"
+    },
+    {
+      "id": "tcs-new-york-city-marathon-www-tcsnewyorkcitymarathon-org",
+      "name": "TCS New York City Marathon",
+      "url": "https://www.tcsnewyorkcitymarathon.org/",
+      "adapter": "race-calendar",
+      "expectedMarkers": [
+        "TCS New York City Marathon 2026",
+        "Race day",
+        "马拉松",
+        "World Marathon Majors",
+        "road race"
+      ],
+      "relatedItems": [
+        "sports-ddl-new-york-city-marathon-2026-11-01"
+      ],
+      "lastCheckedAt": "2026-05-17T15:19:31.594Z"
+    },
+    {
+      "id": "waterfront-hall-world-snooker-tour-www-waterfront-co-uk-what-s-on-betvic",
+      "name": "Waterfront Hall / World Snooker Tour",
+      "url": "https://www.waterfront.co.uk/what-s-on/betvictor-northern-ireland-open/",
+      "adapter": "snooker-event",
+      "expectedMarkers": [
+        "BetVictor Northern Ireland Open 2026",
+        "Event start",
+        "snooker",
+        "World Snooker Tour"
+      ],
+      "relatedItems": [
+        "sports-ddl-northern-ireland-open-snooker-2026-10-18"
+      ],
+      "lastCheckedAt": "2026-05-17T15:19:31.594Z"
+    },
+    {
+      "id": "world-athletics-worldathletics-org-competitions-world-athletics-u20-cham",
       "name": "World Athletics",
-      "type": "official",
       "url": "https://worldathletics.org/competitions/world-athletics-u20-championships",
-      "adapter": "worldAthleticsAdapter",
-      "subtopics": [
-        "running-athletics"
+      "adapter": "race-calendar",
+      "expectedMarkers": [
+        "World Athletics U20 Championships Oregon 2026",
+        "Event start",
+        "World Athletics",
+        "U20"
       ],
-      "lastCheckedAt": "2026-05-17T14:05:19.482Z"
+      "relatedItems": [
+        "sports-ddl-world-athletics-u20-oregon-2026-08-05"
+      ],
+      "lastCheckedAt": "2026-05-17T15:19:31.594Z"
     },
     {
-      "id": "marathon-official-sites",
-      "name": "Official marathon event sites",
-      "type": "official",
-      "url": "https://www.worldmarathonmajors.com/",
-      "adapter": "marathonOfficialSitesAdapter",
-      "subtopics": [
-        "running-athletics"
+      "id": "wtt-events-worldtabletennis-com-eventslist",
+      "name": "WTT Events",
+      "url": "https://worldtabletennis.com/eventslist",
+      "adapter": "wtt-events",
+      "expectedMarkers": [
+        "WTT Star Contender Ljubljana 2026",
+        "Event start",
+        "乒乓球",
+        "WTT",
+        "Star Contender",
+        "WTT United States Smash 2026",
+        "Smash",
+        "WTT Champions Yokohama 2026",
+        "Champions",
+        "WTT Europe Smash Sweden 2026"
       ],
-      "lastCheckedAt": "2026-05-17T14:05:19.482Z"
+      "relatedItems": [
+        "sports-ddl-wtt-star-contender-ljubljana-2026-06-16",
+        "sports-ddl-wtt-united-states-smash-2026-06-25",
+        "sports-ddl-wtt-champions-yokohama-2026-08-05",
+        "sports-ddl-wtt-europe-smash-sweden-2026-08-13",
+        "sports-ddl-wtt-china-smash-2026-10-01",
+        "sports-ddl-wtt-finals-hong-kong-2026-12-08"
+      ],
+      "lastCheckedAt": "2026-05-17T15:19:31.594Z"
     }
   ]
 }
