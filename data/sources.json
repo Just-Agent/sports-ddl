@@ -1,6 +1,6 @@
 {
   "topicId": "sports-ddl",
-  "generatedAt": "2026-05-17T14:03:04.728Z",
+  "generatedAt": "2026-05-17T14:05:19.482Z",
   "sourceFamilies": [
     {
       "id": "ittf-2026-calendar",
@@ -11,7 +11,7 @@
       "subtopics": [
         "table-tennis"
       ],
-      "lastCheckedAt": "2026-05-17T14:03:04.728Z"
+      "lastCheckedAt": "2026-05-17T14:05:19.482Z"
     },
     {
       "id": "wtt-events",
@@ -22,7 +22,7 @@
       "subtopics": [
         "table-tennis"
       ],
-      "lastCheckedAt": "2026-05-17T14:03:04.728Z"
+      "lastCheckedAt": "2026-05-17T14:05:19.482Z"
     },
     {
       "id": "bwf-calendar",
@@ -33,7 +33,7 @@
       "subtopics": [
         "badminton"
       ],
-      "lastCheckedAt": "2026-05-17T14:03:04.728Z"
+      "lastCheckedAt": "2026-05-17T14:05:19.482Z"
     },
     {
       "id": "world-athletics",
@@ -44,7 +44,7 @@
       "subtopics": [
         "running-athletics"
       ],
-      "lastCheckedAt": "2026-05-17T14:03:04.728Z"
+      "lastCheckedAt": "2026-05-17T14:05:19.482Z"
     },
     {
       "id": "marathon-official-sites",
@@ -55,7 +55,7 @@
       "subtopics": [
         "running-athletics"
       ],
-      "lastCheckedAt": "2026-05-17T14:03:04.728Z"
+      "lastCheckedAt": "2026-05-17T14:05:19.482Z"
     }
   ]
 }
