@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-05-17T13:50:52.931Z",
+  "checks": [
+    {
+      "id": "ittf-2026-calendar",
+      "name": "ITTF 2026 Events Calendar",
+      "url": "https://www.ittf.com/2026-events-calendar/",
+      "adapter": "ittfCalendarAdapter",
+      "ok": false,
+      "status": 403,
+      "finalUrl": "https://www.ittf.com/2026-events-calendar/",
+      "title": "Just a moment...",
+      "checkedAt": "2026-05-17T13:50:40.643Z"
+    },
+    {
+      "id": "wtt-events",
+      "name": "WTT Events",
+      "url": "https://worldtabletennis.com/eventslist",
+      "adapter": "wttEventsAdapter",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.worldtabletennis.com/eventslist",
+      "title": "World Table Tennis",
+      "checkedAt": "2026-05-17T13:50:41.509Z"
+    },
+    {
+      "id": "bwf-calendar",
+      "name": "BWF Tournament Calendar",
+      "url": "https://bwfbadminton.com/calendar/",
+      "adapter": "bwfCalendarAdapter",
+      "ok": false,
+      "status": 403,
+      "finalUrl": "https://bwfbadminton.com/calendar/",
+      "title": "Attention Required! | Cloudflare",
+      "checkedAt": "2026-05-17T13:50:42.095Z"
+    },
+    {
+      "id": "world-athletics",
+      "name": "World Athletics",
+      "url": "https://worldathletics.org/competitions/world-athletics-u20-championships",
+      "adapter": "worldAthleticsAdapter",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://worldathletics.org/competitions/world-athletics-u20-championships/oregon26",
+      "title": "Home | Oregon 26 | World Athletics U20 Championships",
+      "checkedAt": "2026-05-17T13:50:46.930Z"
+    },
+    {
+      "id": "marathon-official-sites",
+      "name": "Official marathon event sites",
+      "url": "https://www.worldmarathonmajors.com/",
+      "adapter": "marathonOfficialSitesAdapter",
+      "ok": false,
+      "status": "error",
+      "error": "This operation was aborted",
+      "checkedAt": "2026-05-17T13:50:52.931Z"
+    }
+  ]
+}

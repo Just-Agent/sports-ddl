@@ -1,0 +1,61 @@
+{
+  "topicId": "sports-ddl",
+  "generatedAt": "2026-05-17T13:50:52.931Z",
+  "sourceFamilies": [
+    {
+      "id": "ittf-2026-calendar",
+      "name": "ITTF 2026 Events Calendar",
+      "type": "official",
+      "url": "https://www.ittf.com/2026-events-calendar/",
+      "adapter": "ittfCalendarAdapter",
+      "subtopics": [
+        "table-tennis"
+      ],
+      "lastCheckedAt": "2026-05-17T13:50:52.931Z"
+    },
+    {
+      "id": "wtt-events",
+      "name": "WTT Events",
+      "type": "official",
+      "url": "https://worldtabletennis.com/eventslist",
+      "adapter": "wttEventsAdapter",
+      "subtopics": [
+        "table-tennis"
+      ],
+      "lastCheckedAt": "2026-05-17T13:50:52.931Z"
+    },
+    {
+      "id": "bwf-calendar",
+      "name": "BWF Tournament Calendar",
+      "type": "official",
+      "url": "https://bwfbadminton.com/calendar/",
+      "adapter": "bwfCalendarAdapter",
+      "subtopics": [
+        "badminton"
+      ],
+      "lastCheckedAt": "2026-05-17T13:50:52.931Z"
+    },
+    {
+      "id": "world-athletics",
+      "name": "World Athletics",
+      "type": "official",
+      "url": "https://worldathletics.org/competitions/world-athletics-u20-championships",
+      "adapter": "worldAthleticsAdapter",
+      "subtopics": [
+        "running-athletics"
+      ],
+      "lastCheckedAt": "2026-05-17T13:50:52.931Z"
+    },
+    {
+      "id": "marathon-official-sites",
+      "name": "Official marathon event sites",
+      "type": "official",
+      "url": "https://www.worldmarathonmajors.com/",
+      "adapter": "marathonOfficialSitesAdapter",
+      "subtopics": [
+        "running-athletics"
+      ],
+      "lastCheckedAt": "2026-05-17T13:50:52.931Z"
+    }
+  ]
+}

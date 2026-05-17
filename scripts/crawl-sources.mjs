@@ -1,0 +1,8 @@
+import fs from 'node:fs';
+const sourcesPath = new URL('../data/sources.json', import.meta.url); const reportPath = new URL('../data/crawl-report.json', import.meta.url);
+const sources = JSON.parse(fs.readFileSync(sourcesPath, 'utf8')); const timeoutMs = Number(process.env.CRAWL_TIMEOUT_MS || 6000);
+async function probe(source) { const controller = new AbortController(); const timer = setTimeout(() => controller.abort(), timeoutMs); try { const response = await fetch(source.url, { redirect: 'follow', signal: controller.signal, headers: { 'user-agent': 'Just-DDL sports-ddl crawler (+https://github.com/Just-Agent/sports-ddl)' } }); const html = await response.text().catch(() => ''); return { id: source.id, name: source.name, url: source.url, adapter: source.adapter, ok: response.ok, status: response.status, finalUrl: response.url, title: (html.match(/<title[^>]*>([^<]+)<\/title>/i)?.[1] || '').trim().slice(0, 180), checkedAt: new Date().toISOString() }; } catch (error) { return { id: source.id, name: source.name, url: source.url, adapter: source.adapter, ok: false, status: 'error', error: error.message, checkedAt: new Date().toISOString() }; } finally { clearTimeout(timer); } }
+const checks = []; for (const source of sources.sourceFamilies) checks.push(await probe(source));
+sources.generatedAt = new Date().toISOString(); sources.sourceFamilies = sources.sourceFamilies.map(source => ({ ...source, lastCheckedAt: sources.generatedAt }));
+fs.writeFileSync(sourcesPath, JSON.stringify(sources, null, 2) + '\n', 'utf8'); fs.writeFileSync(reportPath, JSON.stringify({ generatedAt: sources.generatedAt, checks }, null, 2) + '\n', 'utf8');
+console.log(`sports crawler checked ${checks.length} source adapters`);
