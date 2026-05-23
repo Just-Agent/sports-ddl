@@ -79,6 +79,7 @@ const styles = {
   badminton: { name: '羽毛球', icon: '羽', color: '#0EA5E9', note: 'BWF 世界巡回赛与公开赛' },
   'table-tennis': { name: '乒乓球', icon: '乒', color: '#F97316', note: 'ITTF / WTT 职业赛历' },
   basketball: { name: '篮球', icon: '篮', color: '#EA580C', note: 'NBA Finals 与 FIBA 世界杯' },
+  football: { name: '足球', icon: '足', color: '#2563EB', note: 'FIFA / UEFA 官方赛事节点' },
   billiards: { name: '台球', icon: '台', color: '#0F766E', note: 'Pool / Snooker 赛事入口' },
   pickleball: { name: '匹克球', icon: '匹', color: '#7C3AED', note: 'PPA / MLP 巡回赛' },
   'running-athletics': { name: '路跑与田径', icon: '跑', color: '#16A34A', note: '马拉松与 World Athletics' },
@@ -161,6 +162,7 @@ function sourceModeFor(item) {
     /bwfbadminton\.com\/calendar/i,
     /ittf\.com\/2026-events-calendar/i,
     /worldtabletennis\.com\/eventslist/i,
+    /fifa\.com\/en\/tournaments\/mens\/worldcup\/canadamexicousa2026/i,
     /majorleaguepickleball\.co/i,
     /ppatour\.com\/schedule/i,
   ].some(pattern => pattern.test(sourceUrl));

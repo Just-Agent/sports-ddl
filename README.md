@@ -5,7 +5,7 @@
 <h1 align="center">体育赛事 DDL</h1>
 
 <p align="center">
-  乒乓球、羽毛球、篮球、台球、匹克球、路跑与田径的赛事倒计时和官方来源追踪。<br>
+  乒乓球、羽毛球、篮球、足球、台球、匹克球、路跑与田径的赛事倒计时和官方来源追踪。<br>
   给体育爱好者、参赛者、俱乐部运营和内容编辑使用：先看下一场，再追官方来源。
 </p>
 
@@ -36,9 +36,9 @@
 
 | 指标 | 当前值 |
 | --- | ---: |
-| DDL 条目 | 44 |
-| 子专题 | 6 |
-| 来源族 | 18 |
+| DDL 条目 | 49 |
+| 子专题 | 7 |
+| 来源族 | 22 |
 | Pages | [https://just-agent.github.io/sports-ddl/](https://just-agent.github.io/sports-ddl/) |
 | Hub | [https://just-agent.github.io/just-ddl/#/topic/sports-ddl](https://just-agent.github.io/just-ddl/#/topic/sports-ddl) |
 
@@ -53,6 +53,7 @@
 | ![匹克球](https://img.shields.io/badge/%E5%8C%B9%E5%85%8B%E7%90%83-5%20%E6%9D%A1-7C3AED) | 5 | PPA / MLP 巡回赛 | [Major League Pickleball Dallas 2026](https://majorleaguepickleball.co/news/major-league-pickleball-announces-full-2026-may-august-season-schedule-event-tickets-now-on-sale-via-tixr-and-ticketmaster-2/) |
 | ![台球](https://img.shields.io/badge/%E5%8F%B0%E7%90%83-4%20%E6%9D%A1-0F766E) | 4 | Pool / Snooker 赛事入口 | [UK Open Pool Championship 2026](https://matchroompool.com/uk-open-pool-championship/) |
 | ![篮球](https://img.shields.io/badge/%E7%AF%AE%E7%90%83-4%20%E6%9D%A1-EA580C) | 4 | NBA Finals 与 FIBA 世界杯 | [NBA Finals 2026](https://www.nba.com/playoffs/2026/nba-finals) |
+| ![足球](https://img.shields.io/badge/%E8%B6%B3%E7%90%83-5%20%E6%9D%A1-2563EB) | 5 | FIFA / UEFA 官方赛事节点 | [FIFA World Cup 2026 Opening Match](https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums) |
 | ![路跑与田径](https://img.shields.io/badge/%E8%B7%AF%E8%B7%91%E4%B8%8E%E7%94%B0%E5%BE%84-5%20%E6%9D%A1-16A34A) | 5 | 马拉松与 World Athletics | [World Athletics U20 Championships Oregon 2026](https://worldathletics.org/competitions/world-athletics-u20-championships) |
 
 ## 近期节点
@@ -67,6 +68,7 @@
 | ![匹克球](https://img.shields.io/badge/%E5%8C%B9%E5%85%8B%E7%90%83-%E5%BC%80%E8%B5%9B-7C3AED) | [PPA Asia 500 Macao Open 2026](https://ppatour.com/schedule/) | May 27-31, 2026 | 开赛 | PPA Tour |
 | ![羽毛球](https://img.shields.io/badge/%E7%BE%BD%E6%AF%9B%E7%90%83-%E5%BC%80%E8%B5%9B-0EA5E9) | [Indonesia Open 2026](https://bwfbadminton.com/calendar/) | Jun 2-7, 2026 | 开赛 | BWF Tournament Calendar |
 | ![篮球](https://img.shields.io/badge/%E7%AF%AE%E7%90%83-%E5%86%B3%E8%B5%9B-EA580C) | [NBA Finals 2026](https://www.nba.com/playoffs/2026/nba-finals) | Jun 3-19, 2026 | 决赛 | NBA Playoffs |
+| ![足球](https://img.shields.io/badge/%E8%B6%B3%E7%90%83-%E5%BC%80%E8%B5%9B-2563EB) | [FIFA World Cup 2026 Opening Match](https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums) | Jun 11, 2026 | 开赛 | FIFA World Cup 2026 Match Schedule |
 
 ## 数据来源
 
@@ -82,6 +84,9 @@
 | FIBA Basketball | `fiba-event` | [fiba.basketball](https://www.fiba.basketball/en/events/fiba-u17-basketball-world-cup-2026) | 1 |
 | FIBA Basketball | `fiba-event` | [fiba.basketball](https://www.fiba.basketball/en/events/fiba-womens-basketball-world-cup-2026) | 1 |
 | FIBA Event Calendar | `fiba-event` | [fiba.basketball](https://www.fiba.basketball/en/events) | 1 |
+| FIFA U-17 Women's World Cup | `football-event` | [fifa.com](https://www.fifa.com/en/tournaments/womens/u17womensworldcup/morocco-2026) | 1 |
+| FIFA U-20 Women's World Cup | `football-event` | [fifa.com](https://www.fifa.com/en/tournaments/womens/u20womensworldcup/poland-2026) | 1 |
+| FIFA World Cup 2026 Match Schedule | `football-event` | [fifa.com](https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums) | 2 |
 | ITTF 2026 Events Calendar | `ittf-calendar` | [ittf.com](https://www.ittf.com/2026-events-calendar/) | 6 |
 | Major League Pickleball | `pickleball-tour` | [majorleaguepickleball.co](https://majorleaguepickleball.co/news/major-league-pickleball-announces-full-2026-may-august-season-schedule-event-tickets-now-on-sale-via-tixr-and-ticketmaster-2/) | 2 |
 | Matchroom Pool | `matchroom-pool` | [matchroompool.com](https://matchroompool.com/uk-open-pool-championship/) | 1 |
@@ -89,6 +94,7 @@
 | PPA Tour | `pickleball-tour` | [ppatour.com](https://ppatour.com/schedule/) | 3 |
 | Sydney Marathon | `race-calendar` | [sydneymarathon.com](https://sydneymarathon.com/) | 1 |
 | TCS New York City Marathon | `race-calendar` | [tcsnewyorkcitymarathon.org](https://www.tcsnewyorkcitymarathon.org/) | 1 |
+| UEFA Super Cup | `football-event` | [uefa.com](https://www.uefa.com/uefasupercup/news/02a4-2056c25ced6f-cc7862c2721f-1000--the-2026-uefa-super-cup-in-salzburg-all-you-need-to-know/) | 1 |
 | Waterfront Hall / World Snooker Tour | `snooker-event` | [waterfront.co.uk](https://www.waterfront.co.uk/what-s-on/betvictor-northern-ireland-open/) | 1 |
 | World Athletics | `race-calendar` | [worldathletics.org](https://worldathletics.org/competitions/world-athletics-u20-championships) | 1 |
 | WTT Events | `wtt-events` | [worldtabletennis.com](https://worldtabletennis.com/eventslist) | 6 |

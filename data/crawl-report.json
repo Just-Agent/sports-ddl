@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-05-19T06:34:23.826Z",
+  "generatedAt": "2026-05-23T18:27:28.895Z",
   "checks": [
+    {
+      "id": "apa-poolplayers-poolplayers-com-us-amateur-championship",
+      "name": "APA Poolplayers",
+      "url": "https://poolplayers.com/us-amateur-championship/",
+      "adapter": "apa-pool",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://poolplayers.com/us-amateur-championship/",
+      "contentType": "text/html; charset=UTF-8",
+      "title": "U.S. Amateur Championship - American Poolplayers Association",
+      "matchedMarkers": [
+        "APA",
+        "Pool",
+        "amateur"
+      ],
+      "relatedItemCount": 1,
+      "checkedAt": "2026-05-23T18:27:23.395Z"
+    },
     {
       "id": "apa-poolplayers-poolplayers-com-world-pool-championships",
       "name": "APA Poolplayers",
@@ -18,25 +36,7 @@
         "9-Ball"
       ],
       "relatedItemCount": 1,
-      "checkedAt": "2026-05-19T06:34:15.308Z"
-    },
-    {
-      "id": "apa-poolplayers-poolplayers-com-us-amateur-championship",
-      "name": "APA Poolplayers",
-      "url": "https://poolplayers.com/us-amateur-championship/",
-      "adapter": "apa-pool",
-      "ok": true,
-      "status": 200,
-      "finalUrl": "https://poolplayers.com/us-amateur-championship/",
-      "contentType": "text/html; charset=UTF-8",
-      "title": "U.S. Amateur Championship - American Poolplayers Association",
-      "matchedMarkers": [
-        "APA",
-        "Pool",
-        "amateur"
-      ],
-      "relatedItemCount": 1,
-      "checkedAt": "2026-05-19T06:34:15.334Z"
+      "checkedAt": "2026-05-23T18:27:23.413Z"
     },
     {
       "id": "bmw-berlin-marathon-www-bmw-berlin-marathon-com",
@@ -50,11 +50,10 @@
       "title": "BMW BERLIN-MARATHON 2026",
       "matchedMarkers": [
         "Marathon",
-        "Race",
-        "road race"
+        "Race"
       ],
       "relatedItemCount": 1,
-      "checkedAt": "2026-05-19T06:34:16.246Z"
+      "checkedAt": "2026-05-23T18:27:23.706Z"
     },
     {
       "id": "bwf-tournament-calendar-bwfbadminton-com-calendar",
@@ -70,7 +69,7 @@
         "BWF"
       ],
       "relatedItemCount": 14,
-      "checkedAt": "2026-05-19T06:34:15.297Z"
+      "checkedAt": "2026-05-23T18:27:22.666Z"
     },
     {
       "id": "chicago-marathon-www-chicagomarathon-com",
@@ -89,7 +88,7 @@
         "World Marathon Majors"
       ],
       "relatedItemCount": 1,
-      "checkedAt": "2026-05-19T06:34:15.404Z"
+      "checkedAt": "2026-05-23T18:27:24.407Z"
     },
     {
       "id": "fiba-basketball-www-fiba-basketball-en-events-fiba-u17-basketball-world-",
@@ -108,7 +107,7 @@
         "U17"
       ],
       "relatedItemCount": 1,
-      "checkedAt": "2026-05-19T06:34:17.413Z"
+      "checkedAt": "2026-05-23T18:27:22.933Z"
     },
     {
       "id": "fiba-basketball-www-fiba-basketball-en-events-fiba-womens-basketball-wor",
@@ -127,7 +126,7 @@
         "Women's World Cup"
       ],
       "relatedItemCount": 1,
-      "checkedAt": "2026-05-19T06:34:17.483Z"
+      "checkedAt": "2026-05-23T18:27:23.043Z"
     },
     {
       "id": "fiba-event-calendar-www-fiba-basketball-en-events",
@@ -144,7 +143,55 @@
         "World Cup"
       ],
       "relatedItemCount": 1,
-      "checkedAt": "2026-05-19T06:34:18.691Z"
+      "checkedAt": "2026-05-23T18:27:22.955Z"
+    },
+    {
+      "id": "fifa-u17-womens-world-cup-morocco-2026-fifa-com",
+      "name": "FIFA U-17 Women's World Cup",
+      "url": "https://www.fifa.com/en/tournaments/womens/u17womensworldcup/morocco-2026",
+      "adapter": "football-event",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.fifa.com/en/tournaments/womens/u17womensworldcup/morocco-2026",
+      "contentType": "text/html; charset=utf-8",
+      "title": "",
+      "matchedMarkers": [
+        "FIFA"
+      ],
+      "relatedItemCount": 1,
+      "checkedAt": "2026-05-23T18:27:25.261Z"
+    },
+    {
+      "id": "fifa-u20-womens-world-cup-poland-2026-fifa-com",
+      "name": "FIFA U-20 Women's World Cup",
+      "url": "https://www.fifa.com/en/tournaments/womens/u20womensworldcup/poland-2026",
+      "adapter": "football-event",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.fifa.com/en/tournaments/womens/u20womensworldcup/poland-2026",
+      "contentType": "text/html; charset=utf-8",
+      "title": "",
+      "matchedMarkers": [
+        "FIFA"
+      ],
+      "relatedItemCount": 1,
+      "checkedAt": "2026-05-23T18:27:25.130Z"
+    },
+    {
+      "id": "fifa-world-cup-2026-match-schedule-fifa-com",
+      "name": "FIFA World Cup 2026 Match Schedule",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+      "adapter": "football-event",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+      "contentType": "text/html; charset=utf-8",
+      "title": "",
+      "matchedMarkers": [
+        "FIFA"
+      ],
+      "relatedItemCount": 2,
+      "checkedAt": "2026-05-23T18:27:25.121Z"
     },
     {
       "id": "ittf-2026-events-calendar-www-ittf-com-2026-events-calendar",
@@ -161,7 +208,7 @@
         "Events"
       ],
       "relatedItemCount": 6,
-      "checkedAt": "2026-05-19T06:34:17.478Z"
+      "checkedAt": "2026-05-23T18:27:25.017Z"
     },
     {
       "id": "major-league-pickleball-majorleaguepickleball-co-news-major-league-pickl",
@@ -180,7 +227,7 @@
         "pickleball"
       ],
       "relatedItemCount": 2,
-      "checkedAt": "2026-05-19T06:34:17.505Z"
+      "checkedAt": "2026-05-23T18:27:25.073Z"
     },
     {
       "id": "matchroom-pool-matchroompool-com-uk-open-pool-championship",
@@ -198,7 +245,7 @@
         "pool"
       ],
       "relatedItemCount": 1,
-      "checkedAt": "2026-05-19T06:34:18.192Z"
+      "checkedAt": "2026-05-23T18:27:25.563Z"
     },
     {
       "id": "nba-playoffs-www-nba-com-playoffs-2026-nba-finals",
@@ -208,23 +255,26 @@
       "ok": false,
       "status": "error",
       "error": "This operation was aborted",
-      "checkedAt": "2026-05-19T06:34:21.919Z"
+      "checkedAt": "2026-05-23T18:27:26.913Z"
     },
     {
       "id": "ppa-tour-ppatour-com-schedule",
       "name": "PPA Tour",
       "url": "https://ppatour.com/schedule/",
       "adapter": "pickleball-tour",
-      "ok": false,
-      "status": 403,
+      "ok": true,
+      "status": 200,
       "finalUrl": "https://ppatour.com/schedule/",
       "contentType": "text/html; charset=UTF-8",
-      "title": "Just a moment...",
+      "title": "Upcoming Tour Stops | PPA Tour",
       "matchedMarkers": [
-        "PPA"
+        "Pickleball",
+        "PPA",
+        "Asia 500",
+        "China Open"
       ],
       "relatedItemCount": 3,
-      "checkedAt": "2026-05-19T06:34:21.998Z"
+      "checkedAt": "2026-05-23T18:27:25.102Z"
     },
     {
       "id": "sydney-marathon-sydneymarathon-com",
@@ -242,7 +292,7 @@
         "Race"
       ],
       "relatedItemCount": 1,
-      "checkedAt": "2026-05-19T06:34:23.426Z"
+      "checkedAt": "2026-05-23T18:27:28.895Z"
     },
     {
       "id": "tcs-new-york-city-marathon-www-tcsnewyorkcitymarathon-org",
@@ -252,7 +302,29 @@
       "ok": false,
       "status": "error",
       "error": "fetch failed",
-      "checkedAt": "2026-05-19T06:34:23.220Z"
+      "checkedAt": "2026-05-23T18:27:26.918Z"
+    },
+    {
+      "id": "uefa-super-cup-2026-salzburg-uefa-com",
+      "name": "UEFA Super Cup",
+      "url": "https://www.uefa.com/uefasupercup/news/02a4-2056c25ced6f-cc7862c2721f-1000--the-2026-uefa-super-cup-in-salzburg-all-you-need-to-know/",
+      "adapter": "football-event",
+      "ok": true,
+      "status": 200,
+      "finalUrl": "https://www.uefa.com/uefasupercup/news/02a4-2056c25ced6f-cc7862c2721f-1000--the-2026-uefa-super-cup-in-salzburg-all-you-need-to-know/",
+      "contentType": "text/html",
+      "title": "The 2026 UEFA Super Cup in Salzburg: All you need to know | UEFA Super Cup | UEFA.com",
+      "matchedMarkers": [
+        "FIFA",
+        "UEFA",
+        "World Cup",
+        "football",
+        "UEFA Super Cup",
+        "12 August 2026",
+        "Salzburg"
+      ],
+      "relatedItemCount": 1,
+      "checkedAt": "2026-05-23T18:27:27.691Z"
     },
     {
       "id": "waterfront-hall-world-snooker-tour-www-waterfront-co-uk-what-s-on-betvic",
@@ -271,7 +343,7 @@
         "World Snooker Tour"
       ],
       "relatedItemCount": 1,
-      "checkedAt": "2026-05-19T06:34:23.020Z"
+      "checkedAt": "2026-05-23T18:27:28.209Z"
     },
     {
       "id": "world-athletics-worldathletics-org-competitions-world-athletics-u20-cham",
@@ -289,7 +361,7 @@
         "U20"
       ],
       "relatedItemCount": 1,
-      "checkedAt": "2026-05-19T06:34:23.486Z"
+      "checkedAt": "2026-05-23T18:27:28.801Z"
     },
     {
       "id": "wtt-events-worldtabletennis-com-eventslist",
@@ -306,7 +378,7 @@
         "Events"
       ],
       "relatedItemCount": 6,
-      "checkedAt": "2026-05-19T06:34:23.826Z"
+      "checkedAt": "2026-05-23T18:27:27.787Z"
     }
   ]
 }

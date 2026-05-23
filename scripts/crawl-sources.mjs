@@ -19,6 +19,7 @@ const adapterHints = {
   'apa-pool': ['APA', 'Pool'],
   'snooker-event': ['Snooker', 'Open'],
   'pickleball-tour': ['Pickleball', 'PPA', 'MLP'],
+  'football-event': ['FIFA', 'UEFA', 'World Cup', 'football'],
   'lol-esports': ['LoL Esports', 'MSI', 'Worlds'],
   'honor-of-kings-enc': ['Honor of Kings', 'Esports Nations Cup'],
   'esports-world-cup': ['Esports World Cup', '2026'],

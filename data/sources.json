@@ -1,9 +1,25 @@
 {
   "topicId": "sports-ddl",
-  "generatedAt": "2026-05-19T06:34:23.826Z",
+  "generatedAt": "2026-05-23T18:27:28.895Z",
   "sourcePolicy": "official-first; authoritative aggregators allowed only when organizer details are not exposed yet",
   "strictLinkCheckReady": false,
   "sourceFamilies": [
+    {
+      "id": "apa-poolplayers-poolplayers-com-us-amateur-championship",
+      "name": "APA Poolplayers",
+      "url": "https://poolplayers.com/us-amateur-championship/",
+      "adapter": "apa-pool",
+      "expectedMarkers": [
+        "APA U.S. Amateur Championship 2026",
+        "Event start",
+        "APA",
+        "amateur"
+      ],
+      "relatedItems": [
+        "sports-ddl-apa-us-amateur-championship-2026-11-13"
+      ],
+      "lastCheckedAt": "2026-05-23T18:27:28.895Z"
+    },
     {
       "id": "apa-poolplayers-poolplayers-com-world-pool-championships",
       "name": "APA Poolplayers",
@@ -19,23 +35,7 @@
       "relatedItems": [
         "sports-ddl-apa-world-pool-championships-2026-08-04"
       ],
-      "lastCheckedAt": "2026-05-19T06:34:23.826Z"
-    },
-    {
-      "id": "apa-poolplayers-poolplayers-com-us-amateur-championship",
-      "name": "APA Poolplayers",
-      "url": "https://poolplayers.com/us-amateur-championship/",
-      "adapter": "apa-pool",
-      "expectedMarkers": [
-        "APA U.S. Amateur Championship 2026",
-        "Event start",
-        "APA",
-        "amateur"
-      ],
-      "relatedItems": [
-        "sports-ddl-apa-us-amateur-championship-2026-11-13"
-      ],
-      "lastCheckedAt": "2026-05-19T06:34:23.826Z"
+      "lastCheckedAt": "2026-05-23T18:27:28.895Z"
     },
     {
       "id": "bmw-berlin-marathon-www-bmw-berlin-marathon-com",
@@ -52,7 +52,7 @@
       "relatedItems": [
         "sports-ddl-berlin-marathon-2026-09-27"
       ],
-      "lastCheckedAt": "2026-05-19T06:34:23.826Z"
+      "lastCheckedAt": "2026-05-23T18:27:28.895Z"
     },
     {
       "id": "bwf-tournament-calendar-bwfbadminton-com-calendar",
@@ -87,7 +87,7 @@
         "sports-ddl-bwf-french-open-2026-10-20",
         "sports-ddl-bwf-hylo-open-2026-10-27"
       ],
-      "lastCheckedAt": "2026-05-19T06:34:23.826Z"
+      "lastCheckedAt": "2026-05-23T18:27:28.895Z"
     },
     {
       "id": "chicago-marathon-www-chicagomarathon-com",
@@ -104,7 +104,7 @@
       "relatedItems": [
         "sports-ddl-chicago-marathon-2026-10-11"
       ],
-      "lastCheckedAt": "2026-05-19T06:34:23.826Z"
+      "lastCheckedAt": "2026-05-23T18:27:28.895Z"
     },
     {
       "id": "fiba-basketball-www-fiba-basketball-en-events-fiba-u17-basketball-world-",
@@ -120,7 +120,7 @@
       "relatedItems": [
         "sports-ddl-fiba-u17-world-cup-2026-06-27"
       ],
-      "lastCheckedAt": "2026-05-19T06:34:23.826Z"
+      "lastCheckedAt": "2026-05-23T18:27:28.895Z"
     },
     {
       "id": "fiba-basketball-www-fiba-basketball-en-events-fiba-womens-basketball-wor",
@@ -136,7 +136,7 @@
       "relatedItems": [
         "sports-ddl-fiba-womens-world-cup-2026-09-04"
       ],
-      "lastCheckedAt": "2026-05-19T06:34:23.826Z"
+      "lastCheckedAt": "2026-05-23T18:27:28.895Z"
     },
     {
       "id": "fiba-event-calendar-www-fiba-basketball-en-events",
@@ -152,7 +152,57 @@
       "relatedItems": [
         "sports-ddl-fiba-u17-womens-world-cup-2026-07-11"
       ],
-      "lastCheckedAt": "2026-05-19T06:34:23.826Z"
+      "lastCheckedAt": "2026-05-23T18:27:28.895Z"
+    },
+    {
+      "id": "fifa-u17-womens-world-cup-morocco-2026-fifa-com",
+      "name": "FIFA U-17 Women's World Cup",
+      "url": "https://www.fifa.com/en/tournaments/womens/u17womensworldcup/morocco-2026",
+      "adapter": "football-event",
+      "expectedMarkers": [
+        "U-17",
+        "Women",
+        "Morocco",
+        "2026"
+      ],
+      "relatedItems": [
+        "sports-ddl-fifa-u17-womens-world-cup-morocco-2026-10-17"
+      ],
+      "lastCheckedAt": "2026-05-23T18:27:28.895Z"
+    },
+    {
+      "id": "fifa-u20-womens-world-cup-poland-2026-fifa-com",
+      "name": "FIFA U-20 Women's World Cup",
+      "url": "https://www.fifa.com/en/tournaments/womens/u20womensworldcup/poland-2026",
+      "adapter": "football-event",
+      "expectedMarkers": [
+        "U-20",
+        "Women",
+        "Poland",
+        "2026"
+      ],
+      "relatedItems": [
+        "sports-ddl-fifa-u20-womens-world-cup-poland-2026-09-05"
+      ],
+      "lastCheckedAt": "2026-05-23T18:27:28.895Z"
+    },
+    {
+      "id": "fifa-world-cup-2026-match-schedule-fifa-com",
+      "name": "FIFA World Cup 2026 Match Schedule",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums",
+      "adapter": "football-event",
+      "expectedMarkers": [
+        "FIFA World Cup 2026",
+        "Match Schedule",
+        "Canada",
+        "Mexico",
+        "USA"
+      ],
+      "relatedItems": [
+        "sports-ddl-fifa-world-cup-opening-2026-06-11",
+        "sports-ddl-fifa-world-cup-final-2026-07-19"
+      ],
+      "lastCheckedAt": "2026-05-23T18:27:28.895Z"
     },
     {
       "id": "ittf-2026-events-calendar-www-ittf-com-2026-events-calendar",
@@ -179,7 +229,7 @@
         "sports-ddl-ittf-world-youth-championships-manama-2026-11-21",
         "sports-ddl-ittf-mixed-team-world-cup-chengdu-2026-11-29"
       ],
-      "lastCheckedAt": "2026-05-19T06:34:23.826Z"
+      "lastCheckedAt": "2026-05-23T18:27:28.895Z"
     },
     {
       "id": "major-league-pickleball-majorleaguepickleball-co-news-major-league-pickl",
@@ -198,7 +248,7 @@
         "sports-ddl-mlp-dallas-2026-05-22",
         "sports-ddl-mlp-st-louis-2026-06-04"
       ],
-      "lastCheckedAt": "2026-05-19T06:34:23.826Z"
+      "lastCheckedAt": "2026-05-23T18:27:28.895Z"
     },
     {
       "id": "matchroom-pool-matchroompool-com-uk-open-pool-championship",
@@ -214,7 +264,7 @@
       "relatedItems": [
         "sports-ddl-uk-open-pool-championship-2026-05-26"
       ],
-      "lastCheckedAt": "2026-05-19T06:34:23.826Z"
+      "lastCheckedAt": "2026-05-23T18:27:28.895Z"
     },
     {
       "id": "nba-playoffs-www-nba-com-playoffs-2026-nba-finals",
@@ -230,7 +280,7 @@
       "relatedItems": [
         "sports-ddl-nba-finals-2026-06-03"
       ],
-      "lastCheckedAt": "2026-05-19T06:34:23.826Z"
+      "lastCheckedAt": "2026-05-23T18:27:28.895Z"
     },
     {
       "id": "ppa-tour-ppatour-com-schedule",
@@ -253,7 +303,7 @@
         "sports-ddl-ppa-asia-china-open-1-2026-06-17",
         "sports-ddl-veolia-pickleball-national-championships-2026-08-31"
       ],
-      "lastCheckedAt": "2026-05-19T06:34:23.826Z"
+      "lastCheckedAt": "2026-05-23T18:27:28.895Z"
     },
     {
       "id": "sydney-marathon-sydneymarathon-com",
@@ -270,7 +320,7 @@
       "relatedItems": [
         "sports-ddl-sydney-marathon-2026-08-30"
       ],
-      "lastCheckedAt": "2026-05-19T06:34:23.826Z"
+      "lastCheckedAt": "2026-05-23T18:27:28.895Z"
     },
     {
       "id": "tcs-new-york-city-marathon-www-tcsnewyorkcitymarathon-org",
@@ -287,7 +337,22 @@
       "relatedItems": [
         "sports-ddl-new-york-city-marathon-2026-11-01"
       ],
-      "lastCheckedAt": "2026-05-19T06:34:23.826Z"
+      "lastCheckedAt": "2026-05-23T18:27:28.895Z"
+    },
+    {
+      "id": "uefa-super-cup-2026-salzburg-uefa-com",
+      "name": "UEFA Super Cup",
+      "url": "https://www.uefa.com/uefasupercup/news/02a4-2056c25ced6f-cc7862c2721f-1000--the-2026-uefa-super-cup-in-salzburg-all-you-need-to-know/",
+      "adapter": "football-event",
+      "expectedMarkers": [
+        "UEFA Super Cup",
+        "12 August 2026",
+        "Salzburg"
+      ],
+      "relatedItems": [
+        "sports-ddl-uefa-super-cup-salzburg-2026-08-12"
+      ],
+      "lastCheckedAt": "2026-05-23T18:27:28.895Z"
     },
     {
       "id": "waterfront-hall-world-snooker-tour-www-waterfront-co-uk-what-s-on-betvic",
@@ -303,7 +368,7 @@
       "relatedItems": [
         "sports-ddl-northern-ireland-open-snooker-2026-10-18"
       ],
-      "lastCheckedAt": "2026-05-19T06:34:23.826Z"
+      "lastCheckedAt": "2026-05-23T18:27:28.895Z"
     },
     {
       "id": "world-athletics-worldathletics-org-competitions-world-athletics-u20-cham",
@@ -319,7 +384,7 @@
       "relatedItems": [
         "sports-ddl-world-athletics-u20-oregon-2026-08-05"
       ],
-      "lastCheckedAt": "2026-05-19T06:34:23.826Z"
+      "lastCheckedAt": "2026-05-23T18:27:28.895Z"
     },
     {
       "id": "wtt-events-worldtabletennis-com-eventslist",
@@ -346,7 +411,7 @@
         "sports-ddl-wtt-china-smash-2026-10-01",
         "sports-ddl-wtt-finals-hong-kong-2026-12-08"
       ],
-      "lastCheckedAt": "2026-05-19T06:34:23.826Z"
+      "lastCheckedAt": "2026-05-23T18:27:28.895Z"
     }
   ]
 }
