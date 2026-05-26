@@ -74,30 +74,30 @@
 
 来源策略：官方/主办方优先；当官方详情页尚未开放时，允许使用权威聚合页作为临时入口，并在后续 crawler 中替换为官方详情 URL。
 
-| 来源 | Adapter | 入口 | 关联条目 |
+| 来源 | 类型 | 入口 | 关联条目 |
 | --- | --- | --- | ---: |
-| APA Poolplayers | `apa-pool` | [poolplayers.com](https://poolplayers.com/world-pool-championships/) | 1 |
-| APA Poolplayers | `apa-pool` | [poolplayers.com](https://poolplayers.com/us-amateur-championship/) | 1 |
-| BMW Berlin Marathon | `race-calendar` | [bmw-berlin-marathon.com](https://www.bmw-berlin-marathon.com/) | 1 |
-| BWF Tournament Calendar | `bwf-calendar` | [bwfbadminton.com](https://bwfbadminton.com/calendar/) | 14 |
-| Chicago Marathon | `race-calendar` | [chicagomarathon.com](https://www.chicagomarathon.com/) | 1 |
-| FIBA Basketball | `fiba-event` | [fiba.basketball](https://www.fiba.basketball/en/events/fiba-u17-basketball-world-cup-2026) | 1 |
-| FIBA Basketball | `fiba-event` | [fiba.basketball](https://www.fiba.basketball/en/events/fiba-womens-basketball-world-cup-2026) | 1 |
-| FIBA Event Calendar | `fiba-event` | [fiba.basketball](https://www.fiba.basketball/en/events) | 1 |
-| FIFA U-17 Women's World Cup | `football-event` | [fifa.com](https://www.fifa.com/en/tournaments/womens/u17womensworldcup/morocco-2026) | 1 |
-| FIFA U-20 Women's World Cup | `football-event` | [fifa.com](https://www.fifa.com/en/tournaments/womens/u20womensworldcup/poland-2026) | 1 |
-| FIFA World Cup 2026 Match Schedule | `football-event` | [fifa.com](https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums) | 2 |
-| ITTF 2026 Events Calendar | `ittf-calendar` | [ittf.com](https://www.ittf.com/2026-events-calendar/) | 6 |
-| Major League Pickleball | `pickleball-tour` | [majorleaguepickleball.co](https://majorleaguepickleball.co/news/major-league-pickleball-announces-full-2026-may-august-season-schedule-event-tickets-now-on-sale-via-tixr-and-ticketmaster-2/) | 2 |
-| Matchroom Pool | `matchroom-pool` | [matchroompool.com](https://matchroompool.com/uk-open-pool-championship/) | 1 |
-| NBA Playoffs | `nba-playoffs` | [nba.com](https://www.nba.com/playoffs/2026/nba-finals) | 1 |
-| PPA Tour | `pickleball-tour` | [ppatour.com](https://ppatour.com/schedule/) | 3 |
-| Sydney Marathon | `race-calendar` | [sydneymarathon.com](https://sydneymarathon.com/) | 1 |
-| TCS New York City Marathon | `race-calendar` | [tcsnewyorkcitymarathon.org](https://www.tcsnewyorkcitymarathon.org/) | 1 |
-| UEFA Super Cup | `football-event` | [uefa.com](https://www.uefa.com/uefasupercup/news/02a4-2056c25ced6f-cc7862c2721f-1000--the-2026-uefa-super-cup-in-salzburg-all-you-need-to-know/) | 1 |
-| Waterfront Hall / World Snooker Tour | `snooker-event` | [waterfront.co.uk](https://www.waterfront.co.uk/what-s-on/betvictor-northern-ireland-open/) | 1 |
-| World Athletics | `race-calendar` | [worldathletics.org](https://worldathletics.org/competitions/world-athletics-u20-championships) | 1 |
-| WTT Events | `wtt-events` | [worldtabletennis.com](https://worldtabletennis.com/eventslist) | 6 |
+| APA Poolplayers | 官方赛事页 | [poolplayers.com](https://poolplayers.com/world-pool-championships/) | 1 |
+| APA Poolplayers | 官方赛事页 | [poolplayers.com](https://poolplayers.com/us-amateur-championship/) | 1 |
+| BMW Berlin Marathon | 官方赛事页 | [bmw-berlin-marathon.com](https://www.bmw-berlin-marathon.com/) | 1 |
+| BWF Tournament Calendar | 官方赛历 | [bwfbadminton.com](https://bwfbadminton.com/calendar/) | 14 |
+| Chicago Marathon | 官方赛事页 | [chicagomarathon.com](https://www.chicagomarathon.com/) | 1 |
+| FIBA Basketball | 官方赛事页 | [fiba.basketball](https://www.fiba.basketball/en/events/fiba-u17-basketball-world-cup-2026) | 1 |
+| FIBA Basketball | 官方赛事页 | [fiba.basketball](https://www.fiba.basketball/en/events/fiba-womens-basketball-world-cup-2026) | 1 |
+| FIBA Event Calendar | 官方赛历 | [fiba.basketball](https://www.fiba.basketball/en/events) | 1 |
+| FIFA U-17 Women's World Cup | 官方赛事页 | [fifa.com](https://www.fifa.com/en/tournaments/womens/u17womensworldcup/morocco-2026) | 1 |
+| FIFA U-20 Women's World Cup | 官方赛事页 | [fifa.com](https://www.fifa.com/en/tournaments/womens/u20womensworldcup/poland-2026) | 1 |
+| FIFA World Cup 2026 Match Schedule | 官方赛程页 | [fifa.com](https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/match-schedule-fixtures-results-teams-stadiums) | 2 |
+| ITTF 2026 Events Calendar | 官方赛历 | [ittf.com](https://www.ittf.com/2026-events-calendar/) | 6 |
+| Major League Pickleball | 官方公告页 | [majorleaguepickleball.co](https://majorleaguepickleball.co/news/major-league-pickleball-announces-full-2026-may-august-season-schedule-event-tickets-now-on-sale-via-tixr-and-ticketmaster-2/) | 2 |
+| Matchroom Pool | 官方赛事页 | [matchroompool.com](https://matchroompool.com/uk-open-pool-championship/) | 1 |
+| NBA Playoffs | 官方赛事页 | [nba.com](https://www.nba.com/playoffs/2026/nba-finals) | 1 |
+| PPA Tour | 官方赛历 | [ppatour.com](https://ppatour.com/schedule/) | 3 |
+| Sydney Marathon | 官方赛事页 | [sydneymarathon.com](https://sydneymarathon.com/) | 1 |
+| TCS New York City Marathon | 官方赛事页 | [tcsnewyorkcitymarathon.org](https://www.tcsnewyorkcitymarathon.org/) | 1 |
+| UEFA Super Cup | 官方公告页 | [uefa.com](https://www.uefa.com/uefasupercup/news/02a4-2056c25ced6f-cc7862c2721f-1000--the-2026-uefa-super-cup-in-salzburg-all-you-need-to-know/) | 1 |
+| Waterfront Hall / World Snooker Tour | 官方售票/赛事页 | [waterfront.co.uk](https://www.waterfront.co.uk/what-s-on/betvictor-northern-ireland-open/) | 1 |
+| World Athletics | 官方赛事页 | [worldathletics.org](https://worldathletics.org/competitions/world-athletics-u20-championships) | 1 |
+| WTT Events | 官方赛历 | [worldtabletennis.com](https://worldtabletennis.com/eventslist) | 6 |
 
 ## 自动化链路
 

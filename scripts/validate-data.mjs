@@ -16,6 +16,12 @@ for (const [index, item] of items.entries()) {
   if (item.sourceUrl) {
     try { new URL(item.sourceUrl); } catch { errors.push(`${item.id} has invalid sourceUrl`); }
   }
+  if (item.canonicalUrl) {
+    try { new URL(item.canonicalUrl); } catch { errors.push(`${item.id} has invalid canonicalUrl`); }
+  }
+  if (item.verificationLevel && !['official_event_page', 'official_index', 'manual_verified', 'secondary'].includes(item.verificationLevel)) {
+    errors.push(`${item.id} has unsupported verificationLevel`);
+  }
   if (!Array.isArray(item.tags) || item.tags.length === 0) errors.push(`${item.id} must include tags`);
 }
 

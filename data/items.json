@@ -636,7 +636,9 @@
     "type": "contest",
     "subtopic": "running-athletics",
     "subtopicName": "路跑与田径",
-    "sourceUrl": "https://sydneymarathon.com/"
+    "sourceUrl": "https://sydneymarathon.com/",
+    "canonicalUrl": "https://sydneymarathon.com/",
+    "verificationLevel": "official_event_page"
   },
   {
     "id": "sports-ddl-veolia-pickleball-national-championships-2026-08-31",
@@ -768,7 +770,9 @@
     "type": "contest",
     "subtopic": "running-athletics",
     "subtopicName": "路跑与田径",
-    "sourceUrl": "https://www.bmw-berlin-marathon.com/"
+    "sourceUrl": "https://www.bmw-berlin-marathon.com/",
+    "canonicalUrl": "https://www.bmw-berlin-marathon.com/",
+    "verificationLevel": "official_event_page"
   },
   {
     "id": "sports-ddl-wtt-china-smash-2026-10-01",
@@ -834,7 +838,9 @@
     "type": "contest",
     "subtopic": "running-athletics",
     "subtopicName": "路跑与田径",
-    "sourceUrl": "https://www.chicagomarathon.com/"
+    "sourceUrl": "https://www.chicagomarathon.com/",
+    "canonicalUrl": "https://www.chicagomarathon.com/",
+    "verificationLevel": "official_event_page"
   },
   {
     "id": "sports-ddl-attu-asian-table-tennis-championships-2026-10-12",
@@ -988,7 +994,9 @@
     "type": "contest",
     "subtopic": "running-athletics",
     "subtopicName": "路跑与田径",
-    "sourceUrl": "https://www.tcsnewyorkcitymarathon.org/"
+    "sourceUrl": "https://www.tcsnewyorkcitymarathon.org/",
+    "canonicalUrl": "https://www.tcsnewyorkcitymarathon.org/",
+    "verificationLevel": "official_event_page"
   },
   {
     "id": "sports-ddl-apa-us-amateur-championship-2026-11-13",
